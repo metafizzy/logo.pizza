@@ -3,6 +3,7 @@
   "unused": true,
   "undef": true,
   "globals": {
-    "LogoPizza": true
+    "LogoPizza": true,
+    "Huebee": false
   }
 }
