@@ -1,10 +1,11 @@
 slug: happy-cat
 title: Happy cat
-description: Nothing warms the heart like a smiling feline. You can almost hear the purr.
+description: Nothing warms the heart like a smiling feline. This logo has some versatility, working both with only facial features, or as an iconic shape.
 
 tags: [ animal, multi-color ]
 
-logoImgSrc: happy-cat/happy-cat.png
+mainAsset:
+  imgSrc: happy-cat/happy-cat.png
 
 customColors:
   -

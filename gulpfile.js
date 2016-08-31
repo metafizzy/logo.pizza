@@ -23,9 +23,9 @@ var site = {
 // require('./tasks/dist')( site );
 // require('./tasks/hint')( site );
 // require('./tasks/js')( site );
-// require('./tasks/css')( site );
+require('./tasks/css')( site );
 // require('./tasks/data')( site );
-// require('./tasks/partials')( site );
+require('./tasks/partials')( site );
 // require('./tasks/content')( site );
 require('./tasks/logo-pages')( site );
 

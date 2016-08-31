@@ -1,0 +1,34 @@
+/* asset-display
+------------------------- */
+
+.asset-display {
+  text-align: center;
+  background: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.asset-display--dark {
+  background: #222;
+  color: white;
+}
+
+.asset-display__img {
+  margin: 0 auto;
+  display: block;
+}
+
+.asset-display__img--big {
+  width: 336px;
+  margin-bottom: 20px;
+}
+
+.asset-display__img--small {
+  width: 48px;
+}
+
+.asset-display__title {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: normal;
+}

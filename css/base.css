@@ -1,0 +1,26 @@
+/* base
+------------------------- */
+
+* { box-sizing: border-box; }
+
+html {
+  font-size: 18px;
+}
+
+body {
+  font-family: Texta, sans-serif;
+  line-height: 1.25;
+  background: #EEE;
+  color: #555;
+}
+
+/* ----  ---- */
+
+.content-wrap {
+  width: 960px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+
+

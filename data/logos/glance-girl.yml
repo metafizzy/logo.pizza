@@ -4,7 +4,8 @@ description: Who's that peaking underneath her lashes? This gal has got her eye 
 
 tags: [ female, circle, multi-color ]
 
-logoImgSrc: glance-girl/glance-girl.png
+mainAsset:
+  imgSrc: glance-girl/glance-girl.png
 
 variants:
   -

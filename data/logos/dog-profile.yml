@@ -4,7 +4,8 @@ description: This stoic pup gazes proudly into the distance over your brand. The
 
 tags: [ animal, circle, multi-color ]
 
-logoImgSrc: dog-profile/dog-profile.png
+mainAsset:
+  imgSrc: dog-profile/dog-profile.png
 
 variants:
   -

@@ -14,18 +14,32 @@ gulp.task( 'logo-page-template', function() {
     }));
 });
 
-gulp.task( 'logo-pages', [ 'logo-page-template' ], function() {
-  return gulp.src( 'data/logos/*.yml' )
-    .pipe( gulpYaml() )
-    .pipe( getTransform( function( file, enc, next ) {
-      var data = JSON.parse( file.contents.toString() );
-      file.contents = new Buffer( template( data ) );
-      next( null, file );
-    }) )
-    .pipe( rename({ extname: '.html' }) )
-    .pipe( gulp.dest('build') );
-});
+function extend( a, b ) {
+  for ( var prop in b ) {
+    a[ prop ] = b[ prop ];
+  }
+  return a;
+}
 
-module.exports = function() {
+module.exports = function( site ) {
+
+  gulp.task( 'logo-pages', [ 'partials', 'logo-page-template' ], function() {
+
+    for ( var partialName in site.partials ) {
+      var partialTemplate = site.partials[ partialName ];
+      hbs.registerPartial( partialName, partialTemplate );
+    }
+
+    return gulp.src( 'data/logos/*.yml' )
+      .pipe( gulpYaml() )
+      .pipe( getTransform( function( file, enc, next ) {
+        var data = JSON.parse( file.contents.toString() );
+        extend( data, site.data );
+        file.contents = new Buffer( template( data ) );
+        next( null, file );
+      }) )
+      .pipe( rename({ extname: '.html' }) )
+      .pipe( gulp.dest('build') );
+  });
 
 };

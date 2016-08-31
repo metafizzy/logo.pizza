@@ -4,9 +4,7 @@ var getGlobPaths = require('./utils/get-glob-paths');
 
 var cssSrc = [
   // dependencies
-  'bower_components/normalize.css/normalize.css',
-  // flickity
-  'bower_components/flickity/css/flickity.css',
+  'bower_components/normalize-css/normalize.css',
   // base
   'css/*.css',
   // modules
@@ -15,10 +13,10 @@ var cssSrc = [
 
 gulp.task( 'css', function() {
   gulp.src( cssSrc )
-    .pipe( concat('flickity-docs.css') )
+    .pipe( concat('logo-pizza.css') )
     .pipe( gulp.dest('build/css') );
 });
 
 module.exports = function( site ) {
-  site.data.css_paths = getGlobPaths( cssSrc );
+  site.data.cssPaths = getGlobPaths( cssSrc );
 };

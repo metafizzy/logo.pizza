@@ -1,0 +1,60 @@
+/* custom-colors
+------------------------- */
+
+.custom-colors {
+  border-radius: 5px;
+}
+
+.custom-colors__title {
+  margin: 0;
+  background: white;
+  padding: 10px 10px 0;
+  border-radius: 5px 5px 0 0;
+}
+
+.custom-color {
+  height: 40px;
+  line-height: 40px;
+  padding: 0 10px;
+  background: white;
+}
+
+.custom-color:hover {
+  cursor: pointer;
+  color: #6C6;
+
+}
+
+.custom-color__preview {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background: #CCC;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.custom-bg-button {
+  display: inline-block;
+  height: 40px;
+  padding: 0 20px;
+  border: none;
+  font-family: Texta, sans-serif;
+  font-size: 1rem;
+  border-radius: 0 0 5px 5px;
+  cursor: pointer;
+}
+
+.custom-bg-button--light {
+  background: white;
+  color: #555;
+}
+
+.custom-bg-button--dark {
+  background: #222;
+  color: white;
+}
+
+.custom-bg-button:hover {
+  color: #6C6;
+}

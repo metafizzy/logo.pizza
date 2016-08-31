@@ -4,7 +4,8 @@ description: Off to catch some goodies, this fox packs a whimsical smile and a b
 
 tags: [ animal, multi-color ]
 
-logoImgSrc: fox-runner/fox-runner.png
+mainAsset:
+  imgSrc: fox-runner/fox-runner.png
 
 variants:
   -

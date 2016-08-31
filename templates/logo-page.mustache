@@ -6,7 +6,9 @@
 
   <title>{{title}} - Logo for sale</title>
 
-<link rel="stylesheet" href="../sandbox/logo-page/logo-page.css" />
+{{#each cssPaths}}
+  <link rel="stylesheet" href="../{{this}}" />
+{{/each}}
 
 </head>
 <body>
@@ -21,10 +23,7 @@
 
     <div class="duo">
       <div class="duo__cell">
-        <div class="logo-lockup">
-          <img class="logo-lockup__img logo-lockup__img--big" src="../img/{{ logoImgSrc }}" />
-          <img class="logo-lockup__img logo-lockup__img--small" src="../img/{{ logoImgSrc }}" />
-        </div> <!-- logo-lockup -->
+        {{> asset-display mainAsset}}
       </div>
       <div class="duo__cell">
         <h1 class="logo-page__title">{{ title }}</h1>
@@ -36,10 +35,7 @@
         <div class="custom-colors">
           <h3 class="custom-colors__title">Preview custom colors</h3>
           {{#each customColors}}
-          <div class="custom-color" data-layer="circle">
-            <span class="custom-color__preview" style="background-color: {{color}}"></span>
-            <span class="custom-color__title">{{title}}</span>
-          </div>
+            {{> custom-color}}
           {{/each}}
           <div class="custom-colors__bg-option">
             <button class="custom-bg-button custom-bg-button--light">Light BG</button>
@@ -71,17 +67,13 @@
     </div>
 
     {{#if variants}}
-    <div class="duo">
-      {{#each variants}}
-        <div class="duo__cell">
-          <div class="logo-lockup {{#if isDark}}logo-lockup--dark{{/if}}">
-            <h2 class="logo-lockup__title">{{title}}</h2>
-            <img class="logo-lockup__img logo-lockup__img--big" src="../img/{{imgSrc}}" />
-            <img class="logo-lockup__img logo-lockup__img--small" src="../img/{{imgSrc}}" />
+      <div class="duo">
+        {{#each variants}}
+          <div class="duo__cell">
+            {{> asset-display}}
           </div>
-        </div>
-      {{/each}}
-    </div> <!-- duo -->
+        {{/each}}
+      </div> <!-- duo -->
     {{/if}}
 
   </div>

@@ -1,8 +1,9 @@
 var gulp = require('gulp');
 var path = require('path');
-var partialsSrc = 'modules/*/**/*.mustache';
 var getTransform = require('./utils/get-transform');
 
+
+var partialsSrc = 'modules/*/**/*.mustache';
 
 module.exports = function( site ) {
 

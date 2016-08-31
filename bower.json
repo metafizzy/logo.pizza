@@ -1,0 +1,25 @@
+{
+  "name": "logo.pizza",
+  "description": "Hot & ready logos for sale",
+  "main": "index.js",
+  "authors": [
+    "Metafizzy"
+  ],
+  "license": "BY-CC",
+  "keywords": [
+    "logo",
+    "docs"
+  ],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize-css": "normalize.css#^4.2.0"
+  }
+}
