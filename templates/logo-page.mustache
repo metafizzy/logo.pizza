@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+
+  <title>logo page</title>
+
+</head>
+<body>
+
+  <h1>logo page</h1>
+
+  <p>{{ title }}</p>
+  <p>{{ logoImgSrc }}</p>
+
+  <p>{{ description }}</p>
+
+  {{#if variants}}
+    <ul>
+      {{#each variants}}
+        <li>{{title}}, {{imgSrc}}</li>
+      {{/each}}
+    </ul>
+  {{/if}}
+
+  {{#if customColors}}
+    <ul>
+      {{#each customColors}}
+        <li>{{title}}, {{color}}</li>
+      {{/each}}
+    </ul>
+  {{/if}}
+
+</body>
+</html>

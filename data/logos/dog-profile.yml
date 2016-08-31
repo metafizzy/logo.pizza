@@ -1,0 +1,33 @@
+slug: dog-profile
+title: Dog profile
+description: This stoic pup gazes proudly into the distance over your brand. The simple shapes and clean lines make for a rock-solid emblem that looks great at any size.
+
+tags: [ animal, circle, multi-color ]
+
+logoImgSrc: dog-profile/dog-profile.png
+
+variants:
+  -
+    title: One color light background
+    imgSrc: dog-profile/dog-profile-one-color-light-bg.png
+  -
+    title: One color dark background
+    imgSrc: dog-profile/dog-profile-one-color-dark-bg.png
+
+customColors:
+  -
+    title: Circle
+    color: '#FED'
+    imgSrc: dog-profile/composite-circle.png
+  -
+    title: Outline
+    color: '#159'
+    imgSrc: dog-profile/composite-outline.png
+  -
+    title: Fill 1
+    color: '#FB3'
+    imgSrc: dog-profile/composite-fill1.png
+  -
+    title: Fill 2
+    color: '#FFF'
+    imgSrc: dog-profile/composite-fill2.png
