@@ -23,7 +23,7 @@
 
     <div class="duo">
       <div class="duo__cell">
-        {{> asset-display mainAsset}}
+        {{> asset-display mainAsset isMain="true"}}
       </div>
       <div class="duo__cell">
         <h1 class="logo-page__title">{{ title }}</h1>
@@ -32,7 +32,7 @@
         </div>
 
         {{#if customColors}}
-        <div class="custom-colors">
+        <div class="custom-colors" data-js="custom-colors">
           <h3 class="custom-colors__title">Preview custom colors</h3>
           {{#each customColors}}
             {{> custom-color}}
@@ -80,6 +80,9 @@
 
 </div>
 
+{{#each jsPaths}}
+  <script src="../{{this}}"></script>
+{{/each}}
 
 </body>
 </html>

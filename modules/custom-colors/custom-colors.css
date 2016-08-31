@@ -5,12 +5,18 @@
   border-radius: 5px;
 }
 
+.custom-colors.is-dark {
+  color: white;
+}
+
 .custom-colors__title {
   margin: 0;
   background: white;
   padding: 10px 10px 0;
   border-radius: 5px 5px 0 0;
 }
+
+.custom-colors.is-dark .custom-colors__title { background: #222; }
 
 .custom-color {
   height: 40px;
@@ -19,10 +25,11 @@
   background: white;
 }
 
+.custom-colors.is-dark .custom-color { background: #222; }
+
 .custom-color:hover {
   cursor: pointer;
   color: #6C6;
-
 }
 
 .custom-color__preview {

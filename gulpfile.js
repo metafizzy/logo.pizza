@@ -22,7 +22,7 @@ var site = {
 // require('./tasks/assets')( site );
 // require('./tasks/dist')( site );
 // require('./tasks/hint')( site );
-// require('./tasks/js')( site );
+require('./tasks/js')( site );
 require('./tasks/css')( site );
 // require('./tasks/data')( site );
 require('./tasks/partials')( site );
