@@ -13,6 +13,7 @@ variants:
   -
     title: One color dark background
     imgSrc: dog-profile/dog-profile-one-color-dark-bg.png
+    isDark: true
 
 customColors:
   -

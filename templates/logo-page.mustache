@@ -4,33 +4,90 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width" />
 
-  <title>logo page</title>
+  <title>{{title}} - Logo for sale</title>
+
+<link rel="stylesheet" href="../sandbox/logo-page/logo-page.css" />
 
 </head>
 <body>
 
-  <h1>logo page</h1>
+<div class="content-wrap">
 
-  <p>{{ title }}</p>
-  <p>{{ logoImgSrc }}</p>
+  <div class="site-header">
+    <a href="#">Logo Pizza</a>
+  </div>
 
-  <p>{{ description }}</p>
+  <div class="logo-page">
 
-  {{#if variants}}
-    <ul>
+    <div class="duo">
+      <div class="duo__cell">
+        <div class="logo-lockup">
+          <img class="logo-lockup__img logo-lockup__img--big" src="../img/{{ logoImgSrc }}" />
+          <img class="logo-lockup__img logo-lockup__img--small" src="../img/{{ logoImgSrc }}" />
+        </div> <!-- logo-lockup -->
+      </div>
+      <div class="duo__cell">
+        <h1 class="logo-page__title">{{ title }}</h1>
+        <div class="logo-page__description">
+          <p>{{ description }}</p>
+        </div>
+
+        {{#if customColors}}
+        <div class="custom-colors">
+          <h3 class="custom-colors__title">Preview custom colors</h3>
+          {{#each customColors}}
+          <div class="custom-color" data-layer="circle">
+            <span class="custom-color__preview" style="background-color: {{color}}"></span>
+            <span class="custom-color__title">{{title}}</span>
+          </div>
+          {{/each}}
+          <div class="custom-colors__bg-option">
+            <button class="custom-bg-button custom-bg-button--light">Light BG</button>
+            <button class="custom-bg-button custom-bg-button--dark">Dark BG</button>
+          </div>
+        </div> <!-- custom-colors -->
+        {{/if}}
+
+      </div> <!-- duo-cell -->
+    </div> <!-- duo -->
+
+    <div class="duo purchase-well">
+      <div class="duo__cell purchase-well__cell purchase-well__cell--copy">
+        <p>Purchasing this logo you get:</p>
+        <ul>
+          <li>Production-ready asset files in vector formats — .ai, .pdf, .eps — and raster .png. Ready to be used in print, document, web, and video.</li>
+          <li>Exclusive rights to use the logo. No one else will be able to purchase or use the same logo.</li>
+          <li>Variants:
+            {{#each variants}}
+              {{title}},
+            {{/each}}
+            {{#if customColors}}custom colors{{/if}}.
+          </li>
+        </ul>
+      </div>
+      <div class="duo__cell purchase-well__cell">
+        <button class="purchase-button">Buy Logo $80</button>
+      </div>
+    </div>
+
+    {{#if variants}}
+    <div class="duo">
       {{#each variants}}
-        <li>{{title}}, {{imgSrc}}</li>
+        <div class="duo__cell">
+          <div class="logo-lockup {{#if isDark}}logo-lockup--dark{{/if}}">
+            <h2 class="logo-lockup__title">{{title}}</h2>
+            <img class="logo-lockup__img logo-lockup__img--big" src="../img/{{imgSrc}}" />
+            <img class="logo-lockup__img logo-lockup__img--small" src="../img/{{imgSrc}}" />
+          </div>
+        </div>
       {{/each}}
-    </ul>
-  {{/if}}
+    </div> <!-- duo -->
+    {{/if}}
 
-  {{#if customColors}}
-    <ul>
-      {{#each customColors}}
-        <li>{{title}}, {{color}}</li>
-      {{/each}}
-    </ul>
-  {{/if}}
+  </div>
+
+</div>
+
 
 </body>
 </html>

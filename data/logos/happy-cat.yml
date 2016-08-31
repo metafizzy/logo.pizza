@@ -1,0 +1,32 @@
+slug: happy-cat
+title: Happy cat
+description: Nothing warms the heart like a smiling feline. You can almost hear the purr.
+
+tags: [ animal, multi-color ]
+
+logoImgSrc: happy-cat/happy-cat.png
+
+customColors:
+  -
+    title: Fill
+    color: '#6C6'
+    imgSrc: happy-cat/happy-one-color-dark-bg.png
+  -
+    title: Features
+    color: '#555'
+    imgSrc: happy-cat/features.png
+
+variants:
+  -
+    title: Features only
+    imgSrc: happy-cat/happy-cat-features.png
+  -
+    title: Outline
+    imgSrc: happy-cat/happy-cat-outline.png
+  -
+    title: One color light background
+    imgSrc: happy-cat/happy-cat-one-color-light-bg.png
+  -
+    title: One color dark background
+    imgSrc: happy-cat/happy-cat-one-color-dark-bg.png
+    isDark: true

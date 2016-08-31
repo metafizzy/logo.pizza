@@ -1,0 +1,34 @@
+slug: glance-girl
+title: Glance girl
+description: Who's that peaking underneath her lashes? This gal has got her eye on you.
+
+tags: [ female, circle, multi-color ]
+
+logoImgSrc: glance-girl/glance-girl.png
+
+variants:
+  -
+    title: One color light background
+    imgSrc: glance-girl/glance-girl-one-color-light-bg.png
+  -
+    title: One color dark background
+    imgSrc: glance-girl/glance-girl-one-color-dark-bg.png
+    isDark: true
+
+customColors:
+  -
+    title: Circle
+    color: '#FFE877'
+    imgSrc: glance-girl/composite-circle.png
+  -
+    title: Shade
+    color: '#FFAA77'
+    imgSrc: glance-girl/composite-shade.png
+  -
+    title: Features
+    color: '#2F364A'
+    imgSrc: glance-girl/composite-features.png
+  -
+    title: Fill
+    color: '#FFF'
+    imgSrc: glance-girl/composite-fill.png
