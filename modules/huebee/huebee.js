@@ -69,7 +69,12 @@ proto.create = function() {
   svg.appendChild( path );
   svg.addEventListener( 'click', this.close.bind( this ) );
   this.element.appendChild( svg );
-
+  // set relative position on parent
+  var parentStyle = getComputedStyle( this.anchor.parentNode );
+  if ( parentStyle.position != 'relative' && parentStyle.position != 'absolute' ) {
+    this.anchor.parentNode.style.position = 'relative';
+  }
+  // event
   this.onDocPointerDown = this.docPointerDown.bind( this );
 };
 
@@ -140,8 +145,8 @@ proto.open = function() {
     return;
   }
   var boundingRect = this.anchor.getBoundingClientRect();
-  this.element.style.left = boundingRect.left + this.options.offset[0] + 'px';
-  this.element.style.top = boundingRect.top + this.anchor.offsetHeight +
+  this.element.style.left = this.anchor.offsetLeft + this.options.offset[0] + 'px';
+  this.element.style.top = this.anchor.offsetTop + this.anchor.offsetHeight +
     this.options.offset[1] + 'px';
   docElem.addEventListener( 'mousedown', this.onDocPointerDown );
   docElem.addEventListener( 'touchstart', this.onDocPointerDown );

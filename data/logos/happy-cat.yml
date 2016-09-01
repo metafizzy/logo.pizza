@@ -11,11 +11,11 @@ customColors:
   -
     title: Fill
     color: '#6C6'
-    imgSrc: happy-cat/happy-one-color-dark-bg.png
+    imgSrc: happy-cat/happy-cat-one-color-dark-bg.png
   -
     title: Features
     color: '#555'
-    imgSrc: happy-cat/features.png
+    imgSrc: happy-cat/happy-cat-features.png
 
 variants:
   -

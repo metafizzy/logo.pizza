@@ -19,15 +19,15 @@ variants:
 customColors:
   -
     title: Circle
-    color: '#FED'
+    color: '#FFE877'
     imgSrc: dog-profile/composite-circle.png
   -
     title: Outline
-    color: '#159'
+    color: '#2F364A'
     imgSrc: dog-profile/composite-outline.png
   -
     title: Fill 1
-    color: '#FB3'
+    color: '#FF931E'
     imgSrc: dog-profile/composite-fill1.png
   -
     title: Fill 2

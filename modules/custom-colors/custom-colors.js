@@ -5,11 +5,13 @@
 // data for layers
 var layers = {};
 // elements
-var assetDisplay, colorElems;
+var assetDisplay, colorElems, bigAssetImg, smallAssetImg;
 
 // init
 LogoPizza.modules['custom-colors'] = function( elem ) {
   assetDisplay = document.querySelector('.asset-display--main');
+  bigAssetImg = assetDisplay.querySelector('.asset-display__img--big');
+  smallAssetImg = assetDisplay.querySelector('.asset-display__img--small');
 
   var lightBGButton = elem.querySelector('.custom-bg-button--light');
   var darkBGButton = elem.querySelector('.custom-bg-button--dark');
@@ -48,7 +50,7 @@ function initColorElem( colorElem ) {
   };
   var hueb = new Huebee( colorElem, {
     setText: false,
-    offset: [ 20, -10 ],
+    offset: [ 25, -5 ],
   });
   hueb.on( 'change', function( color ) {
     var layer = layers[ title ];
@@ -64,14 +66,22 @@ function initColorElem( colorElem ) {
 // ----- load layers ----- //
 
 var areLayerImagesLoaded = false;
-var compositeCanvas, compositeCtx;
+var didLoad = false;
+var canvasBig, ctxBig, canvasSmall, ctxSmall;
 
 function loadLayerImages() {
-  if ( areLayerImagesLoaded ) {
+  if ( didLoad ) {
     return;
   }
-  compositeCanvas = document.querySelector('canvas');
-  compositeCtx = compositeCanvas.getContext('2d');
+  // only load once
+  didLoad = true;
+  // create canvases to replace images
+  canvasBig = document.createElement('canvas');
+  canvasSmall = document.createElement('canvas');
+  canvasBig.className = bigAssetImg.className;
+  canvasSmall.className = smallAssetImg.className;
+  ctxBig = canvasBig.getContext('2d');
+  ctxSmall = canvasSmall.getContext('2d');
 
   for ( var layerTitle in layers ) {
     loadLayer( layers[ layerTitle ] );
@@ -84,10 +94,10 @@ function loadLayer( layer ) {
   var img = layer.img = new Image();
   img.onload = function() {
     onImgLoad( layer );
-  }
+  };
   img.onerror = function() {
     onImgError( layer );
-  }
+  };
   img.src = layer.imgSrc;
 }
 
@@ -100,26 +110,46 @@ function onImgLoad( layer ) {
   renderLayer( layer );
 
   loadedImgCount++;
+  // images loaded
   if ( loadedImgCount == layerCount ) {
-    compositeCanvas.width = layer.width;
-    compositeCanvas.height = layer.height;
-    renderComposite();
+    imagesLoaded( layer );
   }
+}
+
+function imagesLoaded( layer ) {
+  areLayerImagesLoaded = true;
+  canvasBig.width = layer.width;
+  canvasBig.height = layer.height;
+  canvasSmall.width = layer.width/4;
+  canvasSmall.height = layer.height/4;
+  assetDisplay.appendChild( canvasBig );
+  assetDisplay.appendChild( canvasSmall );
+  bigAssetImg.style.display = 'none';
+  smallAssetImg.style.display = 'none';
+  renderComposite();
 }
 
 function onImgError( layer ) {
   console.error( 'Could not load layer: ', layer.imgSrc, layer.img.src );
-  debugger
+  // debugger
 }
 
 
 // ----- render ----- //
 
 function renderComposite() {
-  compositeCtx.clearRect( 0, 0, compositeCanvas.width, compositeCanvas.height );
+  if ( !areLayerImagesLoaded ) {
+    return;
+  }
+  ctxBig.clearRect( 0, 0, canvasBig.width, canvasBig.height );
   for ( var layerName in layers ) {
     var layer = layers[ layerName ];
-    compositeCtx.drawImage( layer.canvas, 0, 0 );
+    ctxBig.drawImage( layer.canvas, 0, 0 );
+    // copy to small canvas
+    ctxSmall.save();
+    ctxSmall.scale( 0.25, 0.25 );
+    ctxSmall.drawImage( canvasBig, 0, 0 );
+    ctxSmall.restore();
   }
 }
 
@@ -131,7 +161,8 @@ function renderLayer( layer ) {
   ctx.globalCompositeOperation = 'source-in';
   ctx.fillStyle = layer.color;
   ctx.fillRect( 0, 0, layer.width, layer.height );
-  compositeCtx.drawImage( layer.canvas, 0, 0 );
+  // render on big canvas
+  ctxBig.drawImage( layer.canvas, 0, 0 );
 }
 
 })();
