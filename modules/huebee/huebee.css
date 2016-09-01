@@ -13,8 +13,10 @@
   cursor: pointer;
 }
 
-.huebee__selector {
+.huebee__cursor {
   position: absolute;
+  left: 0px;
+  top: 0px;
   border-color: white;
   border-style: solid;
   border-radius: 5px;
