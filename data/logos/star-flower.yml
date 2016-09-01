@@ -1,0 +1,13 @@
+slug: star-flower
+title: Star flower
+description: What do you see? A flower, a star, a human figure? Maybe it's a little of all three, set in a rainbow.
+
+tags: [ abstract, star, gradient, multi-color ]
+
+mainAsset:
+  imgSrc: star-flower/star-flower.png
+
+variants:
+  -
+    title: One color
+    imgSrc: star-flower/star-flower-one-color.png

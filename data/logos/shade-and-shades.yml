@@ -1,0 +1,16 @@
+slug: shade-and-shades
+title: Shade & shades
+description: Hat, sunglasses, and all day to chill.
+
+tags: [ thick-lines ]
+
+mainAsset:
+  imgSrc: shade-and-shades/shade-and-shades.png
+
+variants:
+  -
+    title: One color
+    imgSrc: shade-and-shades/shade-and-shades-one-color.png
+  -
+    title: Solid
+    imgSrc: shade-and-shades/shade-and-shades-solid.png

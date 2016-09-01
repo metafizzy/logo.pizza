@@ -1,0 +1,18 @@
+slug: truck-flight
+title: Truck flight
+description: The Duke boys gone done it again and jumped the creek, but this time in a high-flyin' pickup.
+
+tags: [ object, one-color ]
+
+mainAsset:
+  imgSrc: truck-flight/truck-flight.png
+
+customColors:
+  -
+    title: Outline
+    color: '#333'
+    imgSrc: truck-flight/truck-flight.png
+  -
+    title: Counter
+    color: '#FFF'
+    imgSrc: truck-flight/composite-counter.png

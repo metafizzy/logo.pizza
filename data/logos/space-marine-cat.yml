@@ -1,0 +1,31 @@
+slug: space-marine-cat
+title: Space Marine cat
+description: Star-blazer eye? Check. Planetary eye-patch? Check. Bad-ass attitude? Oh you know it. This logo is worthy of emblazing the vanguard Delta Force of Alpha Centari.
+
+tags: [ animal, cat ]
+
+mainAsset:
+  imgSrc: space-marine-cat/space-marine-cat.png
+
+variants:
+  -
+    title: One color light background
+    imgSrc: space-marine-cat/space-marine-cat-one-color-light-bg.png
+  -
+    title: One color dark background
+    imgSrc: space-marine-cat/space-marine-cat-one-color-dark-bg.png
+    isDark: true
+
+customColors:
+  -
+    title: Line
+    color: '#333'
+    imgSrc: space-marine-cat/space-marine-cat-one-color-light-bg.png
+  -
+    title: Fill 1
+    color: '#E21'
+    imgSrc: space-marine-cat/composite-fill1.png
+  -
+    title: Fill 2
+    color: '#FFF'
+    imgSrc: space-marine-cat/composite-fill2.png

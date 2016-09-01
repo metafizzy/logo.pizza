@@ -1,0 +1,13 @@
+slug: maple
+title: Maple
+description: No ordinary leaf, this logo uses an angular gradient to display a continuum of colors.
+
+tags: [ object, multi-color, gradient ]
+
+mainAsset:
+  imgSrc: maple/maple.png
+
+variants:
+  -
+    title: One color
+    imgSrc: maple/maple-one-color.png

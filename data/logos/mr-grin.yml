@@ -1,0 +1,14 @@
+slug: mr-grin
+title: Mr. Grin
+description: Nothing says Welcome more than a big toothy smile.
+
+tags: [ circle, one-color ]
+
+mainAsset:
+  imgSrc: mr-grin/mr-grin.png
+
+customColors:
+  -
+    title: Fill
+    color: '#333'
+    imgSrc: mr-grin/mr-grin.png
