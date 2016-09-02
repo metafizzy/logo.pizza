@@ -1,0 +1,14 @@
+slug: green-building
+title: Green building
+description: A tree between two towers. If you're gonna build it, build it right.
+
+tags: [ object, one-color ]
+
+mainAsset:
+  imgSrc: green-building/green-building.png
+
+customColors:
+  -
+    title: Fill
+    color: '#1B6'
+    imgSrc: green-building/green-building.png

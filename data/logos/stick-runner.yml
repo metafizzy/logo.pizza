@@ -2,7 +2,7 @@ slug: stick-runner
 title: Stick runner
 description: Gotta go! This runner is all about geometry. Arms, legs, and feet are all rendered at perfect 45 degree angles, giving the logo a bold energy.
 
-tags: [ figure, one-color ]
+tags: [ figure, human, one-color ]
 
 mainAsset:
   imgSrc: stick-runner/stick-runner.png

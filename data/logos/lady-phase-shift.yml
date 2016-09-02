@@ -1,0 +1,13 @@
+slug: lady-phase-shift
+title: Lazy phase shift
+description: A change in the phase of a waveform.
+
+tags: [ female, human, gradient ]
+
+mainAsset:
+  imgSrc: lady-phase-shift/lady-phase-shift.png
+
+variants:
+  -
+    title: One color
+    imgSrc: lady-phase-shift/lady-phase-shift-one-color.png

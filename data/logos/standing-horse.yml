@@ -1,0 +1,14 @@
+slug: standing-horse
+title: Standing horse
+description: Whoa nelly! This pony is composed of interconnecting lines, but leaves gaps to keep things interesting.
+
+tags: [ animal, one-color, thick-lines ]
+
+mainAsset:
+  imgSrc: standing-horse/standing-horse.png
+
+customColors:
+  -
+    title: Fill
+    color: '#333'
+    imgSrc: standing-horse/standing-horse.png

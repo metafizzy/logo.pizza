@@ -51,6 +51,7 @@ function initColorElem( colorElem ) {
   var hueb = new Huebee( colorElem, {
     setText: false,
     offset: [ 25, -5 ],
+    mode: 'roundHex',
   });
   hueb.on( 'change', function( color ) {
     var layer = layers[ title ];

@@ -3,7 +3,7 @@ var hbs = require('handlebars');
 var getTransform = require('./utils/get-transform');
 var gulpYaml = require('gulp-yaml');
 var rename = require('gulp-rename');
-var extend = require('extend');
+var extend = require('./utils/extend');
 
 var template;
 
