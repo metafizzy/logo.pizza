@@ -28,6 +28,7 @@ require('./tasks/css')( site );
 require('./tasks/partials')( site );
 // require('./tasks/content')( site );
 require('./tasks/logo-pages')( site );
+require('./tasks/homepage')( site );
 
 // var yaml = require('js-yaml');
 var getTransform = require('./tasks/utils/get-transform');
@@ -50,6 +51,7 @@ var templates = {};
 // ----- default ----- //
 
 gulp.task( 'default', [
+  'homepage',
   'logo-pages',
   // 'hint',
   // 'content',

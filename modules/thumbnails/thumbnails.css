@@ -1,0 +1,28 @@
+/* thumbnails
+------------------------- */
+
+.thumbnails {
+  list-style: none;
+  padding: 0;
+}
+
+/* clearfix */
+.thumbnails:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.thumbnail {
+  float: left;
+  width: 180px;
+  background: white;
+  margin: 5px;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.thumbnail__img {
+  display: block;
+  width: 100%;
+}

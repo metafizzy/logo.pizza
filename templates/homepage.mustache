@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+
+  <title>Logo Pizza - Logo for sale</title>
+
+{{#each cssPaths}}
+  <link rel="stylesheet" href="../{{this}}" />
+{{/each}}
+
+</head>
+<body>
+
+<div class="content-wrap">
+
+  <ul class="thumbnails">
+    {{#each thumbnails}}
+      <li class="thumbnail">
+        <a class="thumbnail__link" href="{{slug}}.html">
+          <img class="thumbnail__img" src="../img/{{mainAsset.imgSrc}}" alt="{{title}}" />
+        </a>
+      </li>
+    {{/each}}
+  </ul>
+
+</div> {{! content-wrap }}
+
+{{#each jsPaths}}
+  <script src="../{{this}}"></script>
+{{/each}}
+
+</body>
+</html>

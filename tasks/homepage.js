@@ -3,36 +3,38 @@ var hbs = require('handlebars');
 var getTransform = require('./utils/get-transform');
 var gulpYaml = require('gulp-yaml');
 var rename = require('gulp-rename');
-var extend = require('extend');
+var extend = require('./utils/extend');
 
-var template;
+var data = {};
 
-gulp.task( 'logo-page-template', function() {
-  return gulp.src('templates/logo-page.mustache')
+gulp.task( 'homepage-logos-data', function() {
+  data.thumbnails = [];
+  return gulp.src( 'data/logos/*.yml' )
+    .pipe( gulpYaml() )
     .pipe( getTransform( function( file, enc, next ) {
-      template = hbs.compile( file.contents.toString() );
+      var logoData = JSON.parse( file.contents.toString() );
+      data.thumbnails.push( logoData );
       next( null, file );
-    }));
+    }) );
 });
 
 module.exports = function( site ) {
 
-  gulp.task( 'logo-pages', [ 'partials', 'logo-page-template' ], function() {
+  gulp.task( 'homepage', [ 'partials', 'homepage-logos-data' ], function() {
 
     for ( var partialName in site.partials ) {
       var partialTemplate = site.partials[ partialName ];
       hbs.registerPartial( partialName, partialTemplate );
     }
 
-    return gulp.src( 'data/logos/*.yml' )
-      .pipe( gulpYaml() )
+    return gulp.src( 'templates/homepage.mustache' )
       .pipe( getTransform( function( file, enc, next ) {
-        var data = JSON.parse( file.contents.toString() );
+        var template = hbs.compile( file.contents.toString() );
         extend( data, site.data );
         file.contents = new Buffer( template( data ) );
         next( null, file );
       }) )
-      .pipe( rename({ extname: '.html' }) )
+      .pipe( rename('index.html') )
       .pipe( gulp.dest('build') );
   });
 
