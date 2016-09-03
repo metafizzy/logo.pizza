@@ -1,0 +1,31 @@
+slug: wild-eyed-tiger
+title: Wild eyed tiger
+description: Some would say fierce, but I'd say this kitty is motivated. Go get 'em tiger!
+
+tags: [ animal, cat, multi-color ]
+
+mainAsset:
+  imgSrc: wild-eyed-tiger/wild-eyed-tiger.png
+
+variants:
+  -
+    title: One color light background
+    imgSrc: wild-eyed-tiger/wild-eyed-tiger-one-color-light-bg.png
+  -
+    title: One color dark background
+    imgSrc: wild-eyed-tiger/wild-eyed-tiger-one-color-dark-bg.png
+    isDark: true
+
+customColors:
+  -
+    title: Fur
+    color: '#ff931e'
+    imgSrc: wild-eyed-tiger/wild-eyed-tiger-one-color-dark-bg.png
+  -
+    title: Stripes
+    color: '#333'
+    imgSrc: wild-eyed-tiger/composite-stripes.png
+  -
+    title: Counter
+    color: '#FFF'
+    imgSrc: wild-eyed-tiger/composite-counter.png

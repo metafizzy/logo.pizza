@@ -1,0 +1,14 @@
+slug: funnel
+title: Funnel
+description: Two spheres project from a cone of concentric rings.
+
+tags: [ abstract, one-color ]
+
+mainAsset:
+  imgSrc: funnel/funnel.png
+
+customColors:
+  -
+    title: Fill
+    color: '#333'
+    imgSrc: funnel/funnel.png

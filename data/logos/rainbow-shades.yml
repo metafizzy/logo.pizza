@@ -1,0 +1,16 @@
+slug: rainbow-shades
+title: Rainbow shades
+description: Today's forecast? Chill zone.
+
+tags: [ object, multi-color ]
+
+mainAsset:
+  imgSrc: rainbow-shades/rainbow-shades.png
+
+variants:
+  -
+    title: One color
+    imgSrc: rainbow-shades/rainbow-shades-one-color.png
+  -
+    title: Single lens
+    imgSrc: rainbow-shades/rainbow-shades-lens.png
