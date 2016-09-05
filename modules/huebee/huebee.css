@@ -20,6 +20,7 @@
   border-color: white;
   border-style: solid;
   border-radius: 5px;
+  pointer-events: none;
 }
 
 .huebee__close-button {

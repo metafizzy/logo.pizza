@@ -16,7 +16,7 @@
 <div class="content-wrap">
 
   <div class="site-header">
-    <a href="#">Logo Pizza</a>
+    <a href=".">Logo Pizza</a>
   </div>
 
   <div class="logo-page">
@@ -27,9 +27,11 @@
       </div>
       <div class="duo__cell">
         <h1 class="logo-page__title">{{ title }}</h1>
-        <div class="logo-page__description">
-          <p>{{ description }}</p>
-        </div>
+        {{#if description}}
+          <div class="logo-page__description">
+            <p>{{ description }}</p>
+          </div>
+        {{/if}}
 
         {{#if customColors}}
         <div class="custom-colors" data-js="custom-colors">

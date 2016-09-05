@@ -1,0 +1,22 @@
+slug: interlocking-hands
+title: Interlocking hands
+
+tags: [ human, thick-lines ]
+
+mainAsset:
+  imgSrc: interlocking-hands/interlocking-hands.png
+
+customColors:
+  -
+    title: Left hand
+    color: '#19F'
+    imgSrc: interlocking-hands/composite-left.png
+  -
+    title: Right hand
+    color: '#EA0'
+    imgSrc: interlocking-hands/composite-right.png
+
+variants:
+  -
+    title: One color
+    imgSrc: interlocking-hands/interlocking-hands-one-color.png

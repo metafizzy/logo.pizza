@@ -1,0 +1,31 @@
+slug: diamond-snake
+title: Diamond snake
+description: Hiding the grass amoungst the rubies and emeralds lies the opulent diamond snake. 
+
+tags: [ animal, multi-color ]
+
+mainAsset:
+  imgSrc: diamond-snake/diamond-snake.png
+
+customColors:
+  -
+    title: Color 1
+    color: '#0C0'
+    imgSrc: diamond-snake/composite-color1.png
+  -
+    title: Color 2
+    color: '#E21'
+    imgSrc: diamond-snake/composite-color2.png
+  -
+    title: Color 3
+    color: '#077'
+    imgSrc: diamond-snake/composite-color3.png
+  -
+    title: Color 4
+    color: '#FC0'
+    imgSrc: diamond-snake/composite-color4.png
+
+variants:
+  -
+    title: One color
+    imgSrc: diamond-snake/diamond-snake-one-color.png

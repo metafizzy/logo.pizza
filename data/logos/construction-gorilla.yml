@@ -1,0 +1,39 @@
+slug: construction-gorilla
+title: Construction gorilla
+description: Kitchen need remodeling? I know a great guy. His entire body fits in a square block, and he's great with marble countertops.
+
+tags: [ animal, thick-lines, multi-color ]
+
+mainAsset:
+  imgSrc: construction-gorilla/construction-gorilla.png
+
+customColors:
+  -
+    title: Fur
+    color: '#456'
+    imgSrc: construction-gorilla/composite-fur.png
+  -
+    title: Skin/jeans
+    color: '#89B'
+    imgSrc: construction-gorilla/composite-skin-jeans.png
+  -
+    title: Hat and boots
+    color: '#ED0'
+    imgSrc: construction-gorilla/composite-hat-boots.png
+  -
+    title: Shirt
+    color: '#FFF'
+    imgSrc: construction-gorilla/composite-shirt.png
+  -
+    title: Outline
+    color: '#222'
+    imgSrc: construction-gorilla/construction-gorilla-one-color-light-bg.png
+
+variants:
+  -
+    title: One color light background
+    imgSrc: construction-gorilla/construction-gorilla-one-color-light-bg.png
+  -
+    title: One color dark background
+    imgSrc: construction-gorilla/construction-gorilla-one-color-dark-bg.png
+    isDark: true
