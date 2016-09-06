@@ -1,0 +1,31 @@
+slug: hand-plane
+title: Hand plane
+description: "Attention passengers: we are preparing for take-off."
+
+tags: [ hand, object, multi-color ]
+
+mainAsset:
+  imgSrc: hand-plane/hand-plane.png
+
+customColors:
+  -
+    title: Left hand
+    color: '#19F'
+    imgSrc: hand-plane/composite-left-hand.png
+  -
+    title: Right hand
+    color: '#E21'
+    imgSrc: hand-plane/composite-right-hand.png
+  -
+    title: Top circle
+    color: '#ED0'
+    imgSrc: hand-plane/composite-top-circle.png
+  -
+    title: Bottom circle
+    color: '#6C6'
+    imgSrc: hand-plane/composite-bottom-circle.png
+
+variants:
+  -
+    title: One color
+    imgSrc: hand-plane/hand-plane-one-color.png

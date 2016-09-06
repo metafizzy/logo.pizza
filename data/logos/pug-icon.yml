@@ -1,0 +1,14 @@
+slug: pug-icon
+title: Pug icon
+description: Can't stay mad at this trouble-maker.
+
+tags: [ animal, canine, dog, one-color, multi-color ]
+
+mainAsset:
+  imgSrc: pug-icon/pug-icon.png
+
+customColors:
+  -
+    title: Fill
+    color: '#333'
+    imgSrc: pug-icon/pug-icon.png

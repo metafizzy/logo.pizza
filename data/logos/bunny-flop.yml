@@ -1,0 +1,26 @@
+slug: bunny-flop
+title: Bunny flop
+description: Wink of the eye, twitch of the ears.
+
+tags: [ animal, cute ]
+
+mainAsset:
+  imgSrc: bunny-flop/bunny-flop.png
+
+customColors:
+  -
+    title: Fill
+    color: '#F69'
+    imgSrc: bunny-flop/bunny-flop-fill.png
+  -
+    title: Outline
+    color: '#628'
+    imgSrc: bunny-flop/bunny-flop-outline.png
+
+variants:
+  -
+    title: Fill
+    imgSrc: bunny-flop/bunny-flop-fill.png
+  -
+    title: Outline
+    imgSrc: bunny-flop/bunny-flop-outline.png

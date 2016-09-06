@@ -1,0 +1,19 @@
+slug: horse-mane
+title: Horse mane
+description: Bold, tough work horse with hair to match.
+
+tags: [ animal, thick-lines, one-color ]
+
+mainAsset:
+  imgSrc: horse-mane/horse-mane.png
+
+customColors:
+  -
+    title: Fill
+    color: '#333'
+    imgSrc: horse-mane/horse-mane.png
+
+variants:
+  -
+    title: Circle
+    imgSrc: horse-mane/horse-mane-circle.png

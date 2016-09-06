@@ -1,0 +1,31 @@
+slug: star-tree
+title: Star tree
+description: A fluffly cloud-like treetop growing out of a stout star-like trunk.
+
+tags: [ object, multi-color ]
+
+mainAsset:
+  imgSrc: star-tree/star-tree.png
+
+customColors:
+  -
+    title: Treetop
+    color: '#6C6'
+    imgSrc: star-tree/composite-treetop.png
+  -
+    title: Star
+    color: '#FF8'
+    imgSrc: star-tree/composite-star.png
+  -
+    title: Outline
+    color: '#333'
+    imgSrc: star-tree/star-tree-one-color-light-bg.png
+
+variants:
+  -
+    title: One color light background
+    imgSrc: star-tree/star-tree-one-color-light-bg.png
+  -
+    title: One color dark background
+    imgSrc: star-tree/star-tree-one-color-dark-bg.png
+    isDark: true

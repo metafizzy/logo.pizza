@@ -1,0 +1,19 @@
+slug: red-panda
+title: Red panda
+description: If racoons were this cute, USA would have serious trash monster issues.
+
+tags: [ animal, cute, one-color ]
+
+mainAsset:
+  imgSrc: red-panda/red-panda.png
+
+customColors:
+  -
+    title: Fill
+    color: '#E21'
+    imgSrc: red-panda/red-panda.png
+
+variants:
+  -
+    title: Face
+    imgSrc: red-panda/red-panda-face.png

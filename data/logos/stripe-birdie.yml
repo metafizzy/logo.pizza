@@ -1,0 +1,31 @@
+slug: stripe-birdie
+title: Stripe birdie
+description: Colorful avian creature flying high into the glory.
+
+tags: [ animal, bird, cute, multi-color, thick-lines ]
+
+mainAsset:
+  imgSrc: stripe-birdie/stripe-birdie.png
+
+customColors:
+  -
+    title: Color 1
+    color: '#ED0'
+    imgSrc: stripe-birdie/composite-color1.png
+  -
+    title: Color 2
+    color: '#EA0'
+    imgSrc: stripe-birdie/composite-color2.png
+  -
+    title: Color 3
+    color: '#C4E'
+    imgSrc: stripe-birdie/composite-color3.png
+  -
+    title: Outline
+    color: '#333'
+    imgSrc: stripe-birdie/stripe-birdie-one-color.png
+
+variants:
+  -
+    title: One color
+    imgSrc: stripe-birdie/stripe-birdie-one-color.png

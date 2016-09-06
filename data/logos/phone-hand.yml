@@ -1,0 +1,23 @@
+slug: phone-hand
+title: Phone hand
+description: A window to the whole wide world lies in the palm of your hand.
+
+tags: [ object, hand ]
+
+mainAsset:
+  imgSrc: phone-hand/phone-hand.png
+
+customColors:
+  -
+    title: Hand
+    color: '#19F'
+    imgSrc: phone-hand/composite-hand.png
+  -
+    title: Phone
+    color: '#F69'
+    imgSrc: phone-hand/composite-phone.png
+
+variants:
+  -
+    title: One color
+    imgSrc: phone-hand/phone-hand-one-color.png
