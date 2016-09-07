@@ -1,0 +1,16 @@
+slug: tall-elephant
+title: Tall elephant
+description: This logo uses transparency and multiply blend mode to overlay shapes.
+
+tags: [ animal, multi-color ]
+
+mainAsset:
+  imgSrc: tall-elephant/tall-elephant.png
+
+variants:
+  -
+    title: Line
+    imgSrc: tall-elephant/tall-elephant-line.png
+  -
+    title: Fill
+    imgSrc: tall-elephant/tall-elephant-fill.png

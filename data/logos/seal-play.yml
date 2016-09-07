@@ -1,0 +1,19 @@
+slug: seal-play
+title: Seal play
+description: Angled lines are 2x3, which makes for a more cohesive emblem.
+
+tags: [ animal, one-color ]
+
+mainAsset:
+  imgSrc: seal-play/seal-play.png
+
+customColors:
+  -
+    title: Fill
+    color: '#19F'
+    imgSrc: seal-play/seal-play.png
+
+variants:
+  -
+    title: Striped
+    imgSrc: seal-play/seal-play-striped.png

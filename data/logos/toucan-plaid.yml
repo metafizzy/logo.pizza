@@ -1,0 +1,16 @@
+slug: toucan-plaid
+title: Toucan plaid
+description: Toucans have highly sophisticated grouping behaviors, luring mates by clustering together to form rad blocks of color.
+
+tags: [ animal, bird, multi-color ]
+
+mainAsset:
+  imgSrc: toucan-plaid/toucan-plaid.png
+
+variants:
+  -
+    title: Black bill
+    imgSrc: toucan-plaid/toucan-plaid-black-bill.png
+  -
+    title: One color 2
+    imgSrc: toucan-plaid/toucan-plaid-one-color.png

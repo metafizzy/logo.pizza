@@ -1,0 +1,27 @@
+slug: witchie
+title: Witchie
+description: More of the Kiki's Delivery Service over the Wicked variety.
+
+tags: [ human, flying ]
+
+mainAsset:
+  imgSrc: witchie/witchie.png
+
+customColors:
+  -
+    title: Witch
+    color: '#333'
+    imgSrc: witchie/composite-witch.png
+  -
+    title: Broom
+    color: '#EA0'
+    imgSrc: witchie/composite-broom.png
+
+variants:
+  -
+    title: One color light background
+    imgSrc: witchie/witchie-one-color-light-bg.png
+  -
+    title: One color moon dark background
+    imgSrc: witchie/witchie-one-color-moon-dark-bg.png
+    isDark: true

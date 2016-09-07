@@ -1,0 +1,26 @@
+slug: brain-melt
+title: Brain melt
+description: Whoa. You're telling me astronauts don't even eat astronaut ice cream?
+
+tags: [ object, cute ]
+
+mainAsset:
+  imgSrc: brain-melt/brain-melt.png
+
+customColors:
+  -
+    title: Fill 1
+    color: '#F69'
+    imgSrc: brain-melt/brain-melt-one-color-2.png
+  -
+    title: Fill 2
+    color: '#DDD'
+    imgSrc: brain-melt/composite-fill2.png
+
+variants:
+  -
+    title: One color 1
+    imgSrc: brain-melt/brain-melt-one-color-1.png
+  -
+    title: One color 2
+    imgSrc: brain-melt/brain-melt-one-color-2.png

@@ -1,0 +1,14 @@
+slug: aok
+title: A-OK
+description: That's a spicy meat-a ball.
+
+tags: [ hand, one-color ]
+
+mainAsset:
+  imgSrc: aok/aok.png
+
+customColors:
+  -
+    title: Fill
+    color: '#E62'
+    imgSrc: aok/aok.png
