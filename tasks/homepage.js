@@ -4,6 +4,7 @@ var getTransform = require('./utils/get-transform');
 var gulpYaml = require('gulp-yaml');
 var rename = require('gulp-rename');
 var extend = require('./utils/extend');
+var thumbOrder = require('./thumbnail-order');
 
 var data = {};
 
@@ -22,6 +23,12 @@ module.exports = function( site ) {
 
   gulp.task( 'homepage', [ 'partials', 'homepage-logos-data' ], function() {
 
+    data.thumbnails.sort( function( thumbA, thumbB ) {
+      var indexA = getThumbIndex( thumbA );
+      var indexB = getThumbIndex( thumbB );
+      return indexA - indexB;
+    });
+
     for ( var partialName in site.partials ) {
       var partialTemplate = site.partials[ partialName ];
       hbs.registerPartial( partialName, partialTemplate );
@@ -39,3 +46,10 @@ module.exports = function( site ) {
   });
 
 };
+
+
+function getThumbIndex( thumbnail ) {
+  var index = thumbOrder.indexOf( thumbnail.slug );
+  index = index == -1 ? Infinity : index;
+  return index;
+}
