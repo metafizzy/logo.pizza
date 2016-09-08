@@ -1,0 +1,31 @@
+slug: heart-owl
+title: Heart owl
+description: Barn owl with a heart-shaped face.
+
+tags: [ animal, bird ]
+
+mainAsset:
+  imgSrc: heart-owl/heart-owl.png
+
+customColors:
+  -
+    title: Outline
+    color: '#E21'
+    imgSrc: heart-owl/composite-outline.png
+  -
+    title: Features
+    color: '#555'
+    imgSrc: heart-owl/composite-features.png
+  -
+    title: Fill
+    color: '#FFF'
+    imgSrc: heart-owl/heart-owl-one-color-dark-bg.png
+
+variants:
+  -
+    title: One color light background
+    imgSrc: heart-owl/heart-owl-one-color-light-bg.png
+  -
+    title: One color dark background
+    imgSrc: heart-owl/heart-owl-one-color-dark-bg.png
+    isDark: true

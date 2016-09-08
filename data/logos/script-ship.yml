@@ -1,0 +1,26 @@
+slug: script-ship
+title: script-ship
+description: Ahoy-hoy! Off the starboard bow there goes an elegant solution to this week's code sprint.
+
+tags: [ object, thick-lines, one-color ]
+
+mainAsset:
+  imgSrc: script-ship/script-ship.png
+
+customColors:
+  -
+    title: Outline
+    color: '#333'
+    imgSrc: script-ship/script-ship.png
+  -
+    title: Counters
+    color: '#FFF'
+    imgSrc: script-ship/composite-fill.png
+
+variants:
+  -
+    title: Ship only
+    imgSrc: script-ship/script-ship-ship-only.png
+  -
+    title: Colored
+    imgSrc: script-ship/script-ship-colored.png
