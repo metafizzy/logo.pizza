@@ -7,6 +7,10 @@ tags: [ object, multi-color, gradient ]
 mainAsset:
   imgSrc: maple/maple.png
 
+sprite: 1
+spriteRow: 0
+spriteCol: 3
+
 variants:
   -
     title: One color

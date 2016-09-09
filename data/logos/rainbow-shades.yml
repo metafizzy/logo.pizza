@@ -7,6 +7,10 @@ tags: [ object, multi-color ]
 mainAsset:
   imgSrc: rainbow-shades/rainbow-shades.png
 
+sprite: 1
+spriteRow: 2
+spriteCol: 3
+
 variants:
   -
     title: One color

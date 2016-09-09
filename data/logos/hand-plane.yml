@@ -7,6 +7,10 @@ tags: [ hand, object, multi-color ]
 mainAsset:
   imgSrc: hand-plane/hand-plane.png
 
+sprite: 1
+spriteRow: 4
+spriteCol: 1
+
 customColors:
   -
     title: Left hand

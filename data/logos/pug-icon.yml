@@ -7,6 +7,10 @@ tags: [ animal, canine, dog, one-color, multi-color ]
 mainAsset:
   imgSrc: pug-icon/pug-icon.png
 
+sprite: 2
+spriteRow: 1
+spriteCol: 0
+
 customColors:
   -
     title: Fill

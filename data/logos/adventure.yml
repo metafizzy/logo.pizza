@@ -4,5 +4,9 @@ description: Go where the fun takes you.
 
 tags: [ circle, multi-color ]
 
+sprite: 1
+spriteRow: 1
+spriteCol: 3
+
 mainAsset:
   imgSrc: adventure/adventure.png

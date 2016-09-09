@@ -7,6 +7,10 @@ tags: [ animal, bird, one-color, thick-lines ]
 mainAsset:
   imgSrc: bird-of-prey/bird-of-prey.png
 
+sprite: 1
+spriteRow: 2
+spriteCol: 0
+
 variants:
   -
     title: American eagle

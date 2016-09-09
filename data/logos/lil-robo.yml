@@ -7,6 +7,10 @@ tags: [ object, figure, cute, one-color ]
 mainAsset:
   imgSrc: lil-robo/lil-robo.png
 
+sprite: 1
+spriteRow: 0
+spriteCol: 2
+
 customColors:
   -
     title: Fill

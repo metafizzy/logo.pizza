@@ -7,6 +7,10 @@ tags: [ animal, thick-lines, multi-color ]
 mainAsset:
   imgSrc: construction-gorilla/construction-gorilla.png
 
+sprite: 1
+spriteRow: 4
+spriteCol: 0
+
 customColors:
   -
     title: Fur

@@ -7,6 +7,10 @@ tags: [ animal, thick-lines, one-color ]
 mainAsset:
   imgSrc: horse-mane/horse-mane.png
 
+sprite: 1
+spriteRow: 2
+spriteCol: 4
+
 customColors:
   -
     title: Fill

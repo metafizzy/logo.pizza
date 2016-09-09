@@ -7,6 +7,10 @@ tags: [ female, human, gradient ]
 mainAsset:
   imgSrc: lady-phase-shift/lady-phase-shift.png
 
+sprite: 1
+spriteRow: 3
+spriteCol: 0
+
 variants:
   -
     title: One color

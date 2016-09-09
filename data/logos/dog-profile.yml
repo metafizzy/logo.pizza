@@ -7,6 +7,10 @@ tags: [ animal, circle, multi-color ]
 mainAsset:
   imgSrc: dog-profile/dog-profile.png
 
+sprite: 1
+spriteRow: 0
+spriteCol: 4
+
 variants:
   -
     title: One color light background

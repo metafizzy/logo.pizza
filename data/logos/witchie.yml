@@ -7,6 +7,10 @@ tags: [ human, flying ]
 mainAsset:
   imgSrc: witchie/witchie.png
 
+sprite: 1
+spriteRow: 1
+spriteCol: 4
+
 customColors:
   -
     title: Witch

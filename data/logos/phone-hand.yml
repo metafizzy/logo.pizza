@@ -7,6 +7,10 @@ tags: [ object, hand ]
 mainAsset:
   imgSrc: phone-hand/phone-hand.png
 
+sprite: 2
+spriteRow: 0
+spriteCol: 3
+
 customColors:
   -
     title: Hand

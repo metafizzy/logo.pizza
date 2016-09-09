@@ -7,6 +7,10 @@ tags: [ abstract, one-color ]
 mainAsset:
   imgSrc: funnel/funnel.png
 
+sprite: 1
+spriteRow: 3
+spriteCol: 3
+
 customColors:
   -
     title: Fill

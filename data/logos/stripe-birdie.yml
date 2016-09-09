@@ -7,6 +7,10 @@ tags: [ animal, bird, cute, multi-color, thick-lines ]
 mainAsset:
   imgSrc: stripe-birdie/stripe-birdie.png
 
+sprite: 1
+spriteRow: 3
+spriteCol: 4
+
 customColors:
   -
     title: Color 1

@@ -7,6 +7,10 @@ tags: [ object, thick-lines, one-color ]
 mainAsset:
   imgSrc: script-ship/script-ship.png
 
+sprite: 1
+spriteRow: 0
+spriteCol: 1
+
 customColors:
   -
     title: Outline

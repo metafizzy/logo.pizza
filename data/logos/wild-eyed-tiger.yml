@@ -7,6 +7,10 @@ tags: [ animal, cat, multi-color ]
 mainAsset:
   imgSrc: wild-eyed-tiger/wild-eyed-tiger.png
 
+sprite: 2
+spriteRow: 4
+spriteCol: 4
+
 variants:
   -
     title: One color light background

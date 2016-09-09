@@ -7,6 +7,10 @@ tags: [ animal, multi-color, cute ]
 mainAsset:
   imgSrc: fox-runner/fox-runner.png
 
+sprite: 1
+spriteRow: 4
+spriteCol: 2
+
 variants:
   -
     title: One color light background

@@ -7,6 +7,10 @@ tags: [ animal, multi-color ]
 mainAsset:
   imgSrc: tall-elephant/tall-elephant.png
 
+sprite: 2
+spriteRow: 2
+spriteCol: 2
+
 variants:
   -
     title: Line

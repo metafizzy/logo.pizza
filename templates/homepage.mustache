@@ -31,7 +31,7 @@
     {{#each thumbnails}}
       <li class="thumbnail">
         <a class="thumbnail__link" href="{{slug}}.html">
-          <img class="thumbnail__img" src="../img/{{mainAsset.imgSrc}}" alt="{{title}}" />
+          <div class="thumbnail__sprite thumbnail__sprite--{{sprite}} thumbnail__sprite--position-{{spriteCol}}-{{spriteRow}}" title="{{title}}"></div>
         </a>
       </li>
     {{/each}}

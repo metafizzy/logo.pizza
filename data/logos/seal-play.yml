@@ -7,6 +7,10 @@ tags: [ animal, one-color ]
 mainAsset:
   imgSrc: seal-play/seal-play.png
 
+sprite: 1
+spriteRow: 1
+spriteCol: 1
+
 customColors:
   -
     title: Fill

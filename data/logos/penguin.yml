@@ -7,6 +7,10 @@ tags: [ animal, bird ]
 mainAsset:
   imgSrc: penguin/penguin.png
 
+sprite: 2
+spriteRow: 3
+spriteCol: 3
+
 variants:
   -
     title: One color

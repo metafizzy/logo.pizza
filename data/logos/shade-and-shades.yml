@@ -7,6 +7,10 @@ tags: [ thick-lines, human ]
 mainAsset:
   imgSrc: shade-and-shades/shade-and-shades.png
 
+sprite: 1
+spriteRow: 3
+spriteCol: 1
+
 variants:
   -
     title: One color

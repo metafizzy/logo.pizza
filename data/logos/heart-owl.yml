@@ -7,6 +7,10 @@ tags: [ animal, bird ]
 mainAsset:
   imgSrc: heart-owl/heart-owl.png
 
+sprite: 1
+spriteRow: 4
+spriteCol: 4
+
 customColors:
   -
     title: Outline

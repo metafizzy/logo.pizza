@@ -7,6 +7,10 @@ tags: [ object, one-color ]
 mainAsset:
   imgSrc: green-building/green-building.png
 
+sprite: 2
+spriteRow: 2
+spriteCol: 3
+
 customColors:
   -
     title: Fill

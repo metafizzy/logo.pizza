@@ -7,6 +7,10 @@ tags: [ animal, one-color, thick-lines ]
 mainAsset:
   imgSrc: deer-leap/deer-leap.png
 
+sprite: 1
+spriteRow: 2
+spriteCol: 2
+
 customColors:
   -
     title: Fill

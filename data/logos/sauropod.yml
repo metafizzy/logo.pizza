@@ -7,6 +7,10 @@ tags: [ animal, dinosaur, one-color ]
 mainAsset:
   imgSrc: sauropod/sauropod.png
 
+sprite: 2
+spriteRow: 4
+spriteCol: 0
+
 customColors:
   -
     title: Fill

@@ -7,6 +7,10 @@ tags: [ animal, cute ]
 mainAsset:
   imgSrc: bunny-flop/bunny-flop.png
 
+sprite: 1
+spriteRow: 2
+spriteCol: 1
+
 customColors:
   -
     title: Fill

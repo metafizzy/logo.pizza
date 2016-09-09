@@ -7,6 +7,10 @@ tags: [ cat, one-color ]
 mainAsset:
   imgSrc: lazy-flying-cat/lazy-flying-cat.png
 
+sprite: 2
+spriteRow: 0
+spriteCol: 2
+
 customColors:
   -
     title: Fill

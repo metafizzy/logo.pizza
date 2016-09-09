@@ -7,6 +7,10 @@ tags: [ female, circle, multi-color, human ]
 mainAsset:
   imgSrc: glance-girl/glance-girl.png
 
+sprite: 2
+spriteRow: 2
+spriteCol: 1
+
 variants:
   -
     title: One color light background

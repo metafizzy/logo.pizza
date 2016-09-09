@@ -7,6 +7,10 @@ tags: [ abstract, star, gradient, multi-color ]
 mainAsset:
   imgSrc: star-flower/star-flower.png
 
+sprite: 1
+spriteRow: 4
+spriteCol: 3
+
 variants:
   -
     title: One color

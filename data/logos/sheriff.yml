@@ -7,6 +7,10 @@ tags: [ human, one-color ]
 mainAsset:
   imgSrc: sheriff/sheriff.png
 
+sprite: 1
+spriteRow: 1
+spriteCol: 0
+
 customColors:
   -
     title: Fill

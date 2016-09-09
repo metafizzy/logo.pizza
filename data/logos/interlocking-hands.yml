@@ -6,6 +6,10 @@ tags: [ human, thick-lines ]
 mainAsset:
   imgSrc: interlocking-hands/interlocking-hands.png
 
+sprite: 2
+spriteRow: 2
+spriteCol: 4
+
 customColors:
   -
     title: Left hand

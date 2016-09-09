@@ -7,6 +7,10 @@ tags: [ abstract, one-color ]
 mainAsset:
   imgSrc: trefoil/trefoil.png
 
+sprite: 1
+spriteRow: 1
+spriteCol: 2
+
 customColors:
   -
     title: Fill

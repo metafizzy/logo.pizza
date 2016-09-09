@@ -7,6 +7,10 @@ tags: [ object, one-color ]
 mainAsset:
   imgSrc: oak-leaf/oak-leaf.png
 
+sprite: 2
+spriteRow: 0
+spriteCol: 4
+
 customColors:
   -
     title: Fill

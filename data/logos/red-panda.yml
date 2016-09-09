@@ -7,6 +7,10 @@ tags: [ animal, cute, one-color ]
 mainAsset:
   imgSrc: red-panda/red-panda.png
 
+sprite: 1
+spriteRow: 3
+spriteCol: 2
+
 customColors:
   -
     title: Fill

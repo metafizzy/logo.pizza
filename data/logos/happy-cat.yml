@@ -4,6 +4,10 @@ description: Nothing warms the heart like a smiling feline. This logo has some v
 
 tags: [ animal, cat, cute ]
 
+sprite: 1
+spriteRow: 0
+spriteCol: 0
+
 mainAsset:
   imgSrc: happy-cat/happy-cat.png
 
