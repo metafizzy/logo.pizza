@@ -46,7 +46,7 @@ module.exports = [
   'brain-melt',
   'sauropod',
   'toucan-plaid',
-  'aok',
   'truck-flight',
+  'aok',
   'wild-eyed-tiger',
 ];

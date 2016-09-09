@@ -1,0 +1,42 @@
+/* homepage-header
+------------------------- */
+
+.homepage-header {
+  background: transparent;
+  color: #E21;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.homepage-header .col {
+  position: relative;
+  margin-top: 0;
+}
+
+.homepage-header__logo {
+  position: absolute;
+  left: 20px;
+  top: 5px;
+  width: 150px;
+  height: 150px;
+  fill: #555;
+}
+
+.homepage-header__copy {
+  padding-left: 190px;
+}
+
+.homepage-header__title {
+  font-size: 5.0rem;
+  line-height: 1;
+  margin: 0;
+  padding-top: 5px;
+  margin-bottom: 5px;
+  letter-spacing: -0.02em;
+}
+
+.homepage-header__tagline {
+  font-size: 1.8rem;
+  margin: 0;
+  font-style: italic;
+}
