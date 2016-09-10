@@ -19,8 +19,7 @@ var site = {
 
 // ----- tasks ----- //
 
-// require('./tasks/assets')( site );
-// require('./tasks/dist')( site );
+require('./tasks/assets')( site );
 // require('./tasks/hint')( site );
 require('./tasks/js')( site );
 require('./tasks/css')( site );
@@ -56,9 +55,8 @@ gulp.task( 'default', [
   // 'hint',
   // 'content',
   // 'js',
-  // 'css',
-  // 'dist',
-  // 'prod-assets'
+  'css',
+  'prod-assets'
 ] );
 
 // ----- export ----- //
