@@ -1,0 +1,12 @@
+<li class="thumbnail">
+  <a class="thumbnail__link" href="{{slug}}.html">
+    <span class="thumbnail__sprite thumbnail__sprite--{{sprite}} thumbnail__sprite--position-{{spriteCol}}-{{spriteRow}}"></span>
+    {{#unless isSold}}
+      <span class="thumbnail__label thumbnail__label--status">For sale</span>
+    {{/unless}}
+    <span class="thumbnail__label thumbnail__label--title">{{title}}</span>
+    {{#if isSold}}
+      <p class="thumbnail__sold-sticker">Sold</p>
+    {{/if}}
+  </a>
+</li>

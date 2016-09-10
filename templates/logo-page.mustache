@@ -13,11 +13,11 @@
 </head>
 <body>
 
+{{> inline-svg-symbols}}
+
 <div class="content-wrap">
 
-  <div class="site-header">
-    <a href=".">Logo Pizza</a>
-  </div>
+  {{> site-header}}
 
   <div class="logo-page">
 
@@ -49,24 +49,26 @@
       </div> <!-- duo-cell -->
     </div> <!-- duo -->
 
-    <div class="duo purchase-well">
-      <div class="duo__cell purchase-well__cell purchase-well__cell--copy">
-        <p>Purchasing this logo you get:</p>
-        <ul>
-          <li>Production-ready asset files in vector formats — .ai, .pdf, .eps — and raster .png. Ready to be used in print, document, web, and video.</li>
-          <li>Exclusive rights to use the logo. No one else will be able to purchase or use the same logo.</li>
-          <li>Variants:
-            {{#each variants}}
-              {{title}},
-            {{/each}}
-            {{#if customColors}}custom colors{{/if}}.
-          </li>
-        </ul>
+    {{#unless isSold}}
+      <div class="duo purchase-well col">
+        <div class="duo__cell purchase-well__cell purchase-well__cell--copy">
+          <p>Purchasing this logo you get:</p>
+          <ul>
+            <li>Production-ready asset files in vector formats — .ai, .pdf, .eps — and raster .png. Ready to be used in print, document, web, and video.</li>
+            <li>Exclusive rights to use the logo. No one else will be able to purchase or use the same logo.</li>
+            <li>Variants:
+              {{#each variants}}
+                {{title}},
+              {{/each}}
+              {{#if customColors}}custom colors{{/if}}.
+            </li>
+          </ul>
+        </div>
+        <div class="duo__cell purchase-well__cell">
+          <button class="purchase-button">Buy Logo $80</button>
+        </div>
       </div>
-      <div class="duo__cell purchase-well__cell">
-        <button class="purchase-button">Buy Logo $80</button>
-      </div>
-    </div>
+    {{/unless}}
 
     {{#if variants}}
       <div class="duo">

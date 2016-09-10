@@ -14,6 +14,15 @@ body {
   color: #555;
 }
 
+a {
+  color: #E21;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #333;
+}
+
 /* ----  ---- */
 
 .content-wrap {

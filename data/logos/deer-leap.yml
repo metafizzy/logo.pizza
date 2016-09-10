@@ -2,6 +2,8 @@ slug: deer-leap
 title: Deer leap
 description: Leaping deer composed from three bold lines, angled for action.
 
+isSold: true
+
 tags: [ animal, one-color, thick-lines ]
 
 mainAsset:

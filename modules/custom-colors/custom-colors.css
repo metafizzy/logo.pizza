@@ -14,18 +14,28 @@
   background: white;
   padding: 10px 10px 0;
   border-radius: 5px 5px 0 0;
+  border: 4px solid #DDD;
+  border-bottom: none;
 }
 
-.custom-colors.is-dark .custom-colors__title { background: #222; }
+.custom-colors.is-dark .custom-colors__title {
+  background: #222;
+  border-color: #222;
+}
 
 .custom-color {
   height: 40px;
   line-height: 40px;
-  padding: 0 10px;
+  padding: 0 6px;
   background: white;
+  border-left: 4px solid #DDD;
+  border-right: 4px solid #DDD;
 }
 
-.custom-colors.is-dark .custom-color { background: #222; }
+.custom-colors.is-dark .custom-color {
+  background: #222;
+  border-color: #222;
+}
 
 .custom-color:hover {
   cursor: pointer;
@@ -49,16 +59,20 @@
   font-family: Texta, sans-serif;
   font-size: 1rem;
   border-radius: 0 0 5px 5px;
+  border: 4px solid;
+  border-top: none;
   cursor: pointer;
 }
 
 .custom-bg-button--light {
   background: white;
   color: #555;
+  border-color: #DDD;
 }
 
 .custom-bg-button--dark {
   background: #222;
+  border-color: #222;
   color: white;
 }
 

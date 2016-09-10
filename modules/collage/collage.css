@@ -1,0 +1,12 @@
+/* collage
+------------------------- */
+
+.collage {
+  margin: 10px 0;
+}
+
+.collage__image {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}

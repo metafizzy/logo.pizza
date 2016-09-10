@@ -18,6 +18,11 @@
   width: 180px;
   margin: 5px;
   padding: 5px;
+  position: relative;
+}
+
+.thumbnail__link {
+  display: block;
 }
 
 .thumbnail__img {
@@ -71,3 +76,49 @@
 .thumbnail__sprite--position-2-4 { background-position: -340px -680px; }
 .thumbnail__sprite--position-3-4 { background-position: -510px -680px; }
 .thumbnail__sprite--position-4-4 { background-position: -680px -680px; }
+
+.thumbnail__label {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  text-align: center;
+  border-radius: 25px;
+  opacity: 0;
+  color: #E21;
+  pointer-events: none;
+  transition: opacity 0.2s;
+}
+
+.thumbnail:hover .thumbnail__label {
+  opacity: 1;
+}
+
+.thumbnail__label--status {
+  top: 0px;
+  display: block;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: bold;
+}
+
+.thumbnail__label--title {
+  top: 165px;
+  font-size: 1.05rem;
+}
+
+.thumbnail__sold-sticker {
+  position: absolute;
+  right: 5px;
+  bottom: 10px;
+  width: 60px;
+  line-height: 36px;
+  background: hsla(0, 0%, 90%, 0.8);
+  color: #555;
+  border-radius: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 0.8rem;
+  letter-spacing: 0.1em;
+}
