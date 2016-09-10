@@ -32,6 +32,7 @@
   margin-bottom: 5px;
   margin-right: -1px;
   padding: 8px 15px;
+  outline: none;
 }
 
 .filter__button:first-child {

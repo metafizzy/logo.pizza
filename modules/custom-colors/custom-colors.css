@@ -2,39 +2,28 @@
 ------------------------- */
 
 .custom-colors {
-  border-radius: 5px;
 }
 
-.custom-colors.is-dark {
+.custom-colors__content {
+  border: 4px solid #DDD;
+  border-radius: 5px;
+  padding: 10px 10px 15px;
+}
+
+.custom-colors.is-dark .custom-colors__content {
+  background: #222;
+  border-color: #222;
   color: white;
 }
 
 .custom-colors__title {
-  margin: 0;
-  background: white;
-  padding: 10px 10px 0;
-  border-radius: 5px 5px 0 0;
-  border: 4px solid #DDD;
-  border-bottom: none;
-}
-
-.custom-colors.is-dark .custom-colors__title {
-  background: #222;
-  border-color: #222;
+  margin: 0 0 5px;
 }
 
 .custom-color {
   height: 40px;
   line-height: 40px;
-  padding: 0 6px;
-  background: white;
-  border-left: 4px solid #DDD;
-  border-right: 4px solid #DDD;
-}
-
-.custom-colors.is-dark .custom-color {
-  background: #222;
-  border-color: #222;
+  max-width: 250px;
 }
 
 .custom-color:hover {
@@ -49,6 +38,12 @@
   background: #CCC;
   vertical-align: middle;
   margin-right: 10px;
+}
+
+.custom-colors__bg-option {
+  margin-top: -4px;
+  z-index: 1;
+  position: relative;
 }
 
 .custom-bg-button {
@@ -78,4 +73,8 @@
 
 .custom-bg-button:hover {
   color: #6C6;
+}
+
+.custom-colors .huebee {
+  z-index: 2;
 }

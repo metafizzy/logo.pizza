@@ -33,18 +33,7 @@
           </div>
         {{/if}}
 
-        {{#if customColors}}
-        <div class="custom-colors" data-js="custom-colors">
-          <h3 class="custom-colors__title">Preview custom colors</h3>
-          {{#each customColors}}
-            {{> custom-color}}
-          {{/each}}
-          <div class="custom-colors__bg-option">
-            <button class="custom-bg-button custom-bg-button--light">Light BG</button>
-            <button class="custom-bg-button custom-bg-button--dark">Dark BG</button>
-          </div>
-        </div> <!-- custom-colors -->
-        {{/if}}
+        {{> custom-colors}}
 
       </div> <!-- duo-cell -->
     </div> <!-- duo -->
