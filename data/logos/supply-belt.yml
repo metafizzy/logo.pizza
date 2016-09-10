@@ -2,7 +2,7 @@ slug: supply-belt
 title: Supply belt
 description: Pencil, scissors, paper clip. Yellow, red, blue. Let's get to work.
 
-tags: [ object, multi-color ]
+tags: [ object, multi-color, thick-lines ]
 
 mainAsset:
   imgSrc: supply-belt/supply-belt.png

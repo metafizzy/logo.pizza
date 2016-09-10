@@ -7,6 +7,17 @@ var jsSrc = [
   // dependencies
   'bower_components/ev-emitter/ev-emitter.js',
   'bower_components/unipointer/unipointer.js',
+  // isotope dependencies
+  'bower_components/get-size/get-size.js',
+  'bower_components/desandro-matches-selector/matches-selector.js',
+  'bower_components/fizzy-ui-utils/utils.js',
+  'bower_components/outlayer/item.js',
+  'bower_components/outlayer/outlayer.js',
+  // isotope
+  'bower_components/isotope/js/layout-mode.js',
+  'bower_components/isotope/js/item.js',
+  'bower_components/isotope/js/isotope.js',
+  'bower_components/isotope/js/layout-modes/fit-rows.js',
   // docs
   'js/boilerplate.js',
   // modules

@@ -2,7 +2,7 @@ slug: penguin
 title: Penguin
 description: A minimal penguin. Or is it a black egg with white yolk? Or is it a hound going "AAAAAAAH?"
 
-tags: [ animal, bird ]
+tags: [ animal, body, bird ]
 
 mainAsset:
   imgSrc: penguin/penguin.png

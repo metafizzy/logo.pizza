@@ -4,6 +4,8 @@
   "undef": true,
   "globals": {
     "LogoPizza": true,
-    "Huebee": false
+    "Huebee": false,
+    "matchesSelector": false,
+    "Isotope": false
   }
 }

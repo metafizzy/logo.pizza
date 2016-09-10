@@ -20,6 +20,7 @@
     "tests"
   ],
   "dependencies": {
-    "normalize-css": "normalize.css#^4.2.0"
+    "normalize-css": "normalize.css#^4.2.0",
+    "isotope": "^3.0.1"
   }
 }

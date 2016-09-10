@@ -1,8 +1,8 @@
 slug: script-ship
-title: script-ship
+title: Script ship
 description: Ahoy-hoy! Off the starboard bow there goes an elegant solution to this week's code sprint.
 
-tags: [ object, thick-lines, one-color ]
+tags: [ object, scene, thick-lines, one-color ]
 
 mainAsset:
   imgSrc: script-ship/script-ship.png

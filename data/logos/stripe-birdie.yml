@@ -2,7 +2,7 @@ slug: stripe-birdie
 title: Stripe birdie
 description: Colorful avian creature flying high into the glory.
 
-tags: [ animal, bird, cute, multi-color, thick-lines ]
+tags: [ animal, bird, body, cute, multi-color, thick-lines ]
 
 mainAsset:
   imgSrc: stripe-birdie/stripe-birdie.png
