@@ -47,6 +47,7 @@ function initColorElem( colorElem ) {
     defaultColor: defaultColor,
     color: defaultColor,
     preview: colorElem.querySelector('.custom-color__preview'),
+    codeElem: colorElem.querySelector('.custom-color__title__code'),
   };
   var hueb = new Huebee( colorElem, {
     setText: false,
@@ -57,6 +58,7 @@ function initColorElem( colorElem ) {
     var layer = layers[ title ];
     layer.color = color;
     layer.preview.style.backgroundColor = color;
+    layer.codeElem.textContent = color;
     renderLayer( layer );
     renderComposite();
   });
