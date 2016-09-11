@@ -1,0 +1,41 @@
+/* site footer
+------------------------- */
+
+.site-footer {
+  margin: 60px 0 40px;
+}
+
+.site-footer__brand {
+  text-align: center;
+}
+
+.site-footer__metafizzy-logo {
+  height: 50px;
+}
+
+.site-footer__metafizzy-wordmark {
+  width: 150px;
+  height: auto;
+  fill: #E21;
+}
+
+.metafizzy-logo__outline { fill: #E21; }
+.metafizzy-logo__body { fill: white; }
+
+.metafizzy-logo__stripe1 { fill: transparent; }
+.metafizzy-logo__stripe2 { fill: transparent; }
+.metafizzy-logo__stripe3 { fill: transparent; }
+.metafizzy-logo__stripe4 { fill: transparent; }
+
+/* hover */
+a:hover .site-footer__metafizzy-wordmark {
+  fill: #333;
+}
+
+a:hover .metafizzy-logo__body { fill: transparent; }
+
+a:hover .metafizzy-logo__outline { fill: #333; }
+a:hover .metafizzy-logo__stripe1 { fill: #C25; }
+a:hover .metafizzy-logo__stripe2 { fill: #E62; }
+a:hover .metafizzy-logo__stripe3 { fill: #EA0; }
+a:hover .metafizzy-logo__stripe4 { fill: #19F; }

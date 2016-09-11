@@ -10,7 +10,12 @@ gulp.task( 'assets', function() {
     .pipe( gulp.dest('build') );
 });
 
+gulp.task( 'img', function() {
+  return gulp.src('img/**/*.*')
+    .pipe( gulp.dest('build/img') );
+});
+
 // copy prod assets
-gulp.task( 'prod-assets', [ 'fonts', 'assets' ] );
+gulp.task( 'prod-assets', [ 'fonts', 'assets', 'img' ] );
 
 module.exports = function() {};

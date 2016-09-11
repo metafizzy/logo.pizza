@@ -16,6 +16,7 @@
 .asset-display__img {
   margin: 0 auto;
   display: block;
+  height: auto;
 }
 
 .asset-display__img--big {
