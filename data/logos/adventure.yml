@@ -2,7 +2,8 @@ slug: adventure
 title: Adventure
 description: Go where the fun takes you.
 
-tags: [ circle, scene, multi-color ]
+tags: [ circle, scene, multi-color, colorful ]
+otherTag: colorful
 
 sprite: 1
 spriteRow: 1

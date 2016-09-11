@@ -2,7 +2,8 @@ slug: lazy-flying-cat
 title: Lazy flying cat
 description: If cats could fly you know they'd do it like this.
 
-tags: [ cat, body, one-color ]
+tags: [ cat, body, one-color, flying ]
+otherTag: flying
 
 mainAsset:
   imgSrc: lazy-flying-cat/lazy-flying-cat.png

@@ -2,7 +2,8 @@ slug: rainbow-shades
 title: Rainbow shades
 description: Today's forecast? Chill zone.
 
-tags: [ object, multi-color ]
+tags: [ object, multi-color, colorful ]
+otherTag: colorful
 
 mainAsset:
   imgSrc: rainbow-shades/rainbow-shades.png

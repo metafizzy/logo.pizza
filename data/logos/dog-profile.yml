@@ -2,7 +2,8 @@ slug: dog-profile
 title: Dog profile
 description: This stoic pup gazes proudly into the distance over your brand. The simple shapes and clean lines make for a rock-solid emblem that looks great at any size.
 
-tags: [ animal, circle, multi-color ]
+tags: [ animal, circle, canine, multi-color ]
+otherTag: canine
 
 mainAsset:
   imgSrc: dog-profile/dog-profile.png

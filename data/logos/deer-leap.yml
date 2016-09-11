@@ -4,7 +4,8 @@ description: Leaping deer composed from three bold lines, angled for action.
 
 isSold: true
 
-tags: [ animal, body, one-color, thick-lines ]
+tags: [ animal, body, one-color, thick-lines, moving ]
+otherTag: moving
 
 mainAsset:
   imgSrc: deer-leap/deer-leap.png

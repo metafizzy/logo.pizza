@@ -2,7 +2,8 @@ slug: mr-grin
 title: Mr. Grin
 description: Nothing says Welcome more than a big toothy smile.
 
-tags: [ circle, head, one-color ]
+tags: [ circle, head, one-color, bad-ass ]
+otherTag: bad-ass
 
 mainAsset:
   imgSrc: mr-grin/mr-grin.png

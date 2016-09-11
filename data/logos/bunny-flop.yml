@@ -3,6 +3,7 @@ title: Bunny flop
 description: Wink of the eye, twitch of the ears.
 
 tags: [ animal, head, multi-color, cute ]
+otherTag: head
 
 mainAsset:
   imgSrc: bunny-flop/bunny-flop.png

@@ -3,6 +3,7 @@ title: Heart owl
 description: Barn owl with a heart-shaped face.
 
 tags: [ animal, head, bird, thick-lines ]
+otherTag: bird
 
 mainAsset:
   imgSrc: heart-owl/heart-owl.png

@@ -1,14 +1,2 @@
 /* about
 ------------------------- */
-
-.about {
-  margin: 60px 0;
-}
-
-.about__title {
-  text-transform: uppercase;
-  letter-spacing: 0.2em;
-  text-align: center;
-  margin-bottom: 0px;
-  font-size: 1.8rem;
-}

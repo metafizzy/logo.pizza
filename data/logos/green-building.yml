@@ -2,7 +2,8 @@ slug: green-building
 title: Green building
 description: A tree between two towers. If you're gonna build it, build it right.
 
-tags: [ object, one-color ]
+tags: [ object, scene, one-color ]
+otherTag: scene
 
 mainAsset:
   imgSrc: green-building/green-building.png

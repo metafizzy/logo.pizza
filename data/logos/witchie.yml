@@ -2,7 +2,8 @@ slug: witchie
 title: Witchie
 description: More of the Kiki's Delivery Service over the Wicked variety.
 
-tags: [ human, body, flying ]
+tags: [ human, body, flying, female, moving ]
+otherTag: moving
 
 mainAsset:
   imgSrc: witchie/witchie.png

@@ -3,6 +3,7 @@ title: Horse mane
 description: Bold, tough work horse with hair to match.
 
 tags: [ animal, head, thick-lines, one-color ]
+otherTag: thick-lines
 
 mainAsset:
   imgSrc: horse-mane/horse-mane.png

@@ -3,6 +3,7 @@ title: Funnel
 description: Two spheres project from a cone of concentric rings.
 
 tags: [ abstract, one-color ]
+otherTag: abstract
 
 mainAsset:
   imgSrc: funnel/funnel.png

@@ -3,6 +3,7 @@ title: Pug icon
 description: Can't stay mad at this trouble-maker.
 
 tags: [ animal, canine, dog, head, one-color ]
+otherTag: canine
 
 mainAsset:
   imgSrc: pug-icon/pug-icon.png

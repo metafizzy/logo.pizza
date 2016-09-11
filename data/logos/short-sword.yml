@@ -3,6 +3,7 @@ title: Short sword
 description: Did King Arthur pull it from the stone? Not likely. But it still makes a great symbol for those with knightly aspirations.
 
 tags: [ object, gradient ]
+otherTag: gradient
 
 mainAsset:
   imgSrc: short-sword/short-sword-full-color.png

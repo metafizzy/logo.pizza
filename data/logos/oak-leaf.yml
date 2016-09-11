@@ -3,6 +3,7 @@ title: Oak leaf
 description: Geometric, abstract interpretation of an oak leaf. The circle matches the cut-out shapes of the leaf half.
 
 tags: [ object, abstract, one-color ]
+otherTag: abstract
 
 mainAsset:
   imgSrc: oak-leaf/oak-leaf.png

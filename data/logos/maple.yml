@@ -4,7 +4,8 @@ description: No ordinary leaf, this logo uses an angular gradient to display a c
 
 isSold: true
 
-tags: [ object, multi-color, gradient ]
+tags: [ object, multi-color, gradient, colorful ]
+otherTag: colorful
 
 mainAsset:
   imgSrc: maple/maple.png

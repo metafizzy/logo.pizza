@@ -3,6 +3,7 @@ title: Seal play
 description: Angled lines are 2x3, which makes for a more cohesive emblem.
 
 tags: [ animal, body, one-color ]
+otherTag: body
 
 mainAsset:
   imgSrc: seal-play/seal-play.png
