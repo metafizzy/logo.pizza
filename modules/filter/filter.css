@@ -21,6 +21,7 @@
 
 .filter__group {
   float: left;
+  margin-bottom: 10px;
 }
 
 .filter__button {
@@ -54,11 +55,15 @@
   color: white;
 }
 
-.filter__group--status {
-  width: 30%;
-}
 
-.filter__group--tag {
-  width: 65%;
-  margin-right: 5%;
+@media screen and ( min-width: 768px ) {
+  .filter__group--status {
+    width: 30%;
+  }
+
+  .filter__group--tag {
+    width: 65%;
+    margin-right: 5%;
+  }
+
 }

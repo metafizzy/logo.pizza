@@ -16,9 +16,7 @@
 
 .thumbnail {
   float: left;
-  width: 180px;
-  margin: 5px;
-  padding: 5px;
+  width: 160px;
   position: relative;
 }
 
@@ -26,18 +24,11 @@
   display: block;
 }
 
-.thumbnail__img {
-  display: block;
-  width: 100%;
-}
-
-
-
 .thumbnail__sprite {
   display: block;
-  width: 170px;
-  height: 170px;
-  background-size: 850px 850px;
+  width: 160px;
+  height: 160px;
+  background-size: 800px 800px;
   transform: scale(0.833);
   transition: transform 0.2s;
 }
@@ -49,34 +40,34 @@
 .thumbnail__sprite--1 { background-image: url(../../img/thumbnail-sprite1.png); }
 .thumbnail__sprite--2 { background-image: url(../../img/thumbnail-sprite2.png); }
 
-.thumbnail__sprite--position-1-0 { background-position: -170px 0px; }
-.thumbnail__sprite--position-2-0 { background-position: -340px 0px; }
-.thumbnail__sprite--position-3-0 { background-position: -510px 0px; }
-.thumbnail__sprite--position-4-0 { background-position: -680px 0px; }
+.thumbnail__sprite--position-1-0 { background-position: -160px 0px; }
+.thumbnail__sprite--position-2-0 { background-position: -320px 0px; }
+.thumbnail__sprite--position-3-0 { background-position: -480px 0px; }
+.thumbnail__sprite--position-4-0 { background-position: -640px 0px; }
 
-.thumbnail__sprite--position-0-1 { background-position:    0px -170px; }
-.thumbnail__sprite--position-1-1 { background-position: -170px -170px; }
-.thumbnail__sprite--position-2-1 { background-position: -340px -170px; }
-.thumbnail__sprite--position-3-1 { background-position: -510px -170px; }
-.thumbnail__sprite--position-4-1 { background-position: -680px -170px; }
+.thumbnail__sprite--position-0-1 { background-position:    0px -160px; }
+.thumbnail__sprite--position-1-1 { background-position: -160px -160px; }
+.thumbnail__sprite--position-2-1 { background-position: -320px -160px; }
+.thumbnail__sprite--position-3-1 { background-position: -480px -160px; }
+.thumbnail__sprite--position-4-1 { background-position: -640px -160px; }
 
-.thumbnail__sprite--position-0-2 { background-position:    0px -340px; }
-.thumbnail__sprite--position-1-2 { background-position: -170px -340px; }
-.thumbnail__sprite--position-2-2 { background-position: -340px -340px; }
-.thumbnail__sprite--position-3-2 { background-position: -510px -340px; }
-.thumbnail__sprite--position-4-2 { background-position: -680px -340px; }
+.thumbnail__sprite--position-0-2 { background-position:    0px -320px; }
+.thumbnail__sprite--position-1-2 { background-position: -160px -320px; }
+.thumbnail__sprite--position-2-2 { background-position: -320px -320px; }
+.thumbnail__sprite--position-3-2 { background-position: -480px -320px; }
+.thumbnail__sprite--position-4-2 { background-position: -640px -320px; }
 
-.thumbnail__sprite--position-0-3 { background-position:    0px -510px; }
-.thumbnail__sprite--position-1-3 { background-position: -170px -510px; }
-.thumbnail__sprite--position-2-3 { background-position: -340px -510px; }
-.thumbnail__sprite--position-3-3 { background-position: -510px -510px; }
-.thumbnail__sprite--position-4-3 { background-position: -680px -510px; }
+.thumbnail__sprite--position-0-3 { background-position:    0px -480px; }
+.thumbnail__sprite--position-1-3 { background-position: -160px -480px; }
+.thumbnail__sprite--position-2-3 { background-position: -320px -480px; }
+.thumbnail__sprite--position-3-3 { background-position: -480px -480px; }
+.thumbnail__sprite--position-4-3 { background-position: -640px -480px; }
 
-.thumbnail__sprite--position-0-4 { background-position:    0px -680px; }
-.thumbnail__sprite--position-1-4 { background-position: -170px -680px; }
-.thumbnail__sprite--position-2-4 { background-position: -340px -680px; }
-.thumbnail__sprite--position-3-4 { background-position: -510px -680px; }
-.thumbnail__sprite--position-4-4 { background-position: -680px -680px; }
+.thumbnail__sprite--position-0-4 { background-position:    0px -640px; }
+.thumbnail__sprite--position-1-4 { background-position: -160px -640px; }
+.thumbnail__sprite--position-2-4 { background-position: -320px -640px; }
+.thumbnail__sprite--position-3-4 { background-position: -480px -640px; }
+.thumbnail__sprite--position-4-4 { background-position: -640px -640px; }
 
 .thumbnail__label {
   position: absolute;
@@ -104,7 +95,7 @@
 }
 
 .thumbnail__label--title {
-  top: 165px;
+  top: 145px;
   font-size: 1.05rem;
 }
 
@@ -122,4 +113,54 @@
   text-align: center;
   font-size: 0.8rem;
   letter-spacing: 0.1em;
+}
+
+
+@media screen and ( min-width: 600px ) {
+
+  .thumbnail {
+    width: 180px;
+    margin: 5px;
+    padding: 5px;
+  }
+
+  .thumbnail__sprite {
+    width: 170px;
+    height: 170px;
+    background-size: 850px 850px;
+  }
+
+  .thumbnail__label--title {
+    top: 165px;
+  }
+
+  .thumbnail__sprite--position-1-0 { background-position: -170px 0px; }
+  .thumbnail__sprite--position-2-0 { background-position: -340px 0px; }
+  .thumbnail__sprite--position-3-0 { background-position: -510px 0px; }
+  .thumbnail__sprite--position-4-0 { background-position: -680px 0px; }
+
+  .thumbnail__sprite--position-0-1 { background-position:    0px -170px; }
+  .thumbnail__sprite--position-1-1 { background-position: -170px -170px; }
+  .thumbnail__sprite--position-2-1 { background-position: -340px -170px; }
+  .thumbnail__sprite--position-3-1 { background-position: -510px -170px; }
+  .thumbnail__sprite--position-4-1 { background-position: -680px -170px; }
+
+  .thumbnail__sprite--position-0-2 { background-position:    0px -340px; }
+  .thumbnail__sprite--position-1-2 { background-position: -170px -340px; }
+  .thumbnail__sprite--position-2-2 { background-position: -340px -340px; }
+  .thumbnail__sprite--position-3-2 { background-position: -510px -340px; }
+  .thumbnail__sprite--position-4-2 { background-position: -680px -340px; }
+
+  .thumbnail__sprite--position-0-3 { background-position:    0px -510px; }
+  .thumbnail__sprite--position-1-3 { background-position: -170px -510px; }
+  .thumbnail__sprite--position-2-3 { background-position: -340px -510px; }
+  .thumbnail__sprite--position-3-3 { background-position: -510px -510px; }
+  .thumbnail__sprite--position-4-3 { background-position: -680px -510px; }
+
+  .thumbnail__sprite--position-0-4 { background-position:    0px -680px; }
+  .thumbnail__sprite--position-1-4 { background-position: -170px -680px; }
+  .thumbnail__sprite--position-2-4 { background-position: -340px -680px; }
+  .thumbnail__sprite--position-3-4 { background-position: -510px -680px; }
+  .thumbnail__sprite--position-4-4 { background-position: -680px -680px; }
+
 }

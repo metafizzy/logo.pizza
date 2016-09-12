@@ -10,18 +10,16 @@
 }
 
 .homepage-header__logo {
-  width: 240px;
-  height: 240px;
+  width: 80px;
+  height: 80px;
   fill: #E21;
-  margin-bottom: -30px;
 }
 
 .homepage-header__title {
-  font-size: 3.5rem;
+  font-size: 2.0rem;
   text-transform: uppercase;
   line-height: 1;
   margin: 0;
-  padding-top: 5px;
   margin-bottom: 5px;
   letter-spacing: 0.2em;;
 }
@@ -31,5 +29,20 @@
   text-transform: uppercase;
   margin: 0;
   font-weight: bold;
-  letter-spacing: 0.2em;;
+  letter-spacing: 0.2em;
+}
+
+
+@media screen and ( min-width: 768px ) {
+
+  .homepage-header__logo {
+    width: 240px;
+    height: 240px;
+    margin-bottom: -30px;
+  }
+
+  .homepage-header__title {
+    font-size: 3.5rem;
+  }
+
 }

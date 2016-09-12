@@ -4,7 +4,7 @@
 * { box-sizing: border-box; }
 
 html {
-  font-size: 19px;
+  font-size: 17px;
 }
 
 body {
@@ -30,9 +30,12 @@ ul, ol {
 /* ----  ---- */
 
 .content-wrap {
-  width: 960px;
+  max-width: 960px;
   margin: 0 auto;
 }
 
-
-
+@media screen and ( min-width: 768px ) {
+  html {
+    font-size: 19px;
+  }
+}
