@@ -4,7 +4,24 @@
 .logo-page__title {
   font-size: 2.4rem;
   font-weight: normal;
+  margin: 0;
+}
+
+.logo-page__status {
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: #E21;
   margin: 0 0 20px;
+}
+
+.logo-page__status.is-sold {
+  color: #777;
+  padding: 0 30px;
+  display: inline-block;
+  background: #EEE;
+  border-radius: 20px;
+  line-height: 40px;
 }
 
 .logo-page__description {

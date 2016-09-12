@@ -46,7 +46,12 @@
       </div>
 
       <div class="duo__cell">
-        <h1 class="logo-page__title">{{ title }}</h1>
+        <h1 class="logo-page__title">{{title}}</h1>
+
+        <p class="logo-page__status {{#if isSold}}is-sold{{/if}}">
+          {{#if isSold}}Sold{{else}}Logo for sale{{/if}}
+        </p>
+
         {{#if description}}
           <div class="logo-page__description">
             <p>{{ description }}</p>
@@ -55,20 +60,23 @@
 
         {{> custom-colors}}
 
-        <button class="purchase-button">Buy Logo $80</button>
+        {{#unless isSold}}
+          <button class="purchase-button">Buy Logo $80</button>
 
-        <div class="purchase-text">
-          <p>Purchasing this logo you get:</p>
-          <ul>
-            <li>Production-ready asset files in vector AI, PDF, EPS, and raster PNG. Ready to be used in print, document, web, and video.</li>
-            <li>Exclusive rights to use the logo. No one else will be able to purchase or use the same logo.</li>
-            {{#ifOr variants customColors}}
-              <li>
-                Variants: {{commaListVariants variants}}{{#if customColors}}{{#if variants}},{{/if}} custom colors{{/if}}.
-              </li>
-            {{/ifOr}}
-          </ul>
-        </div> {{! purchase-text }}
+          <div class="purchase-text">
+            <p>Purchasing this logo you get:</p>
+            <ul>
+              <li>Production-ready asset files in vector AI, PDF, EPS, and raster PNG. Ready to be used in print, document, web, and video.</li>
+              <li>Exclusive rights to use the logo. No one else will be able to purchase or use the same logo.</li>
+              {{#ifOr variants customColors}}
+                <li>
+                  Variants: {{commaListVariants variants}}{{#if customColors}}{{#if variants}},{{/if}} custom colors{{/if}}.
+                </li>
+              {{/ifOr}}
+            </ul>
+          </div> {{! purchase-text }}
+        {{/unless}}
+
 
       </div> {{! duo-cell }}
     </div> {{! duo }}
