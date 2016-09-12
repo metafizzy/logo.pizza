@@ -5,12 +5,22 @@
   text-align: center;
   background: white;
   padding: 10px;
-  border-radius: 5px;
+  padding-top: 30px;
+  margin-bottom: 40px;
+  border-top: 4px solid #DDD;
+}
+
+.asset-display--main {
+  border-top: none;
+  padding-top: 10px;
 }
 
 .asset-display.is-dark {
   background: #222;
   color: white;
+  border-radius: 5px;
+  border-top: none;
+  padding-top: 20px;
 }
 
 .asset-display__img {

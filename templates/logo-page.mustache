@@ -39,7 +39,12 @@
     <div class="duo">
       <div class="duo__cell">
         {{> asset-display mainAsset isMain="true" title=title}}
+
+        {{#each variants}}
+          {{> asset-display}}
+        {{/each}}
       </div>
+
       <div class="duo__cell">
         <h1 class="logo-page__title">{{ title }}</h1>
         {{#if description}}
@@ -50,12 +55,9 @@
 
         {{> custom-colors}}
 
-      </div> <!-- duo-cell -->
-    </div> <!-- duo -->
+        <button class="purchase-button">Buy Logo $80</button>
 
-    {{#unless isSold}}
-      <div class="duo purchase-well col">
-        <div class="duo__cell purchase-well__cell purchase-well__cell--copy">
+        <div class="purchase-text">
           <p>Purchasing this logo you get:</p>
           <ul>
             <li>Production-ready asset files in vector AI, PDF, EPS, and raster PNG. Ready to be used in print, document, web, and video.</li>
@@ -66,22 +68,10 @@
               </li>
             {{/ifOr}}
           </ul>
-        </div>
-        <div class="duo__cell purchase-well__cell">
-          <button class="purchase-button">Buy Logo $80</button>
-        </div>
-      </div>
-    {{/unless}}
+        </div> {{! purchase-text }}
 
-    {{#if variants}}
-      <div class="duo">
-        {{#each variants}}
-          <div class="duo__cell">
-            {{> asset-display}}
-          </div>
-        {{/each}}
-      </div> <!-- duo -->
-    {{/if}}
+      </div> {{! duo-cell }}
+    </div> {{! duo }}
 
     {{#if isSold}}
       {{> hire-me firstLine="Want a logo like this one, but different?"}}
