@@ -24,11 +24,11 @@ variants:
 customColors:
   -
     title: Outline
-    color: '#223344'
+    color: '#234'
     imgSrc: fox-runner/composite-outline.png
   -
     title: Fill 1
-    color: '#EE2211'
+    color: '#E21'
     imgSrc: fox-runner/composite-fill1.png
   -
     title: Fill 2
