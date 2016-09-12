@@ -7,6 +7,28 @@ var extend = require('./utils/extend');
 
 var template;
 
+// Handlebars helpers
+hbs.registerHelper( 'commaListVariants', function( variants ) {
+  if ( variants ) {
+    var list = variants.map( function( variant ) {
+      return variant.title;
+    });
+    return list.join(', ');
+  } else {
+    return variants;
+  }
+});
+
+hbs.registerHelper( 'ifOr', function( a, b, options ) {
+  if ( a || b ) {
+    return options.fn( this );
+  } else {
+    return options.inverse( this );  
+  }
+});
+
+
+
 gulp.task( 'logo-page-template', function() {
   return gulp.src('templates/logo-page.mustache')
     .pipe( getTransform( function( file, enc, next ) {

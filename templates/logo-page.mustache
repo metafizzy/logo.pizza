@@ -58,14 +58,13 @@
         <div class="duo__cell purchase-well__cell purchase-well__cell--copy">
           <p>Purchasing this logo you get:</p>
           <ul>
-            <li>Production-ready asset files in vector formats — .ai, .pdf, .eps — and raster .png. Ready to be used in print, document, web, and video.</li>
+            <li>Production-ready asset files in vector AI, PDF, EPS, and raster PNG. Ready to be used in print, document, web, and video.</li>
             <li>Exclusive rights to use the logo. No one else will be able to purchase or use the same logo.</li>
-            <li>Variants:
-              {{#each variants}}
-                {{title}},
-              {{/each}}
-              {{#if customColors}}custom colors{{/if}}.
-            </li>
+            {{#ifOr variants customColors}}
+              <li>
+                Variants: {{commaListVariants variants}}{{#if customColors}}{{#if variants}},{{/if}} custom colors{{/if}}.
+              </li>
+            {{/ifOr}}
           </ul>
         </div>
         <div class="duo__cell purchase-well__cell">

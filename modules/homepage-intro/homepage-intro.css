@@ -9,3 +9,7 @@
   margin: 10px 0;
   text-align: center;
 }
+
+.homepage-intro__price-quote {
+  font-weight: bold;
+}
