@@ -21,50 +21,24 @@ var site = {
 // ----- tasks ----- //
 
 require('./tasks/assets')( site );
-// require('./tasks/hint')( site );
+require('./tasks/hint')( site );
 require('./tasks/js')( site );
 require('./tasks/css')( site );
-// require('./tasks/data')( site );
 require('./tasks/partials')( site );
-// require('./tasks/content')( site );
 require('./tasks/logo-pages')( site );
 require('./tasks/homepage')( site );
-
-// var yaml = require('js-yaml');
-var getTransform = require('./tasks/utils/get-transform');
-var hbs = require('handlebars');
-
-// gulp.task( 'logos-data', function() {
-//   return gulp.src( 'data/logos/*.yml' )
-//     .pipe( getTransform( function( file, enc, next ) {
-//       var logoData = yaml.safeLoad( file.contents.toString() );
-//       site.data.logos[ logoData.slug ] = logoData;
-//       next( null, file );
-//     }) );
-// });
-
-var rename = require('gulp-rename');
-var path = require('path');
-
-var templates = {};
 
 // ----- default ----- //
 
 gulp.task( 'default', [
+  'hint',
   'homepage',
   'logo-pages',
-  // 'hint',
-  // 'content',
-  // 'js',
+  'js',
   'css',
   'prod-assets'
 ] );
 
-// ----- export ----- //
-
-// version of site used in packery-docs.zip
-
-// gulp.task( 'export', [ 'default' ] );
 
 // ----- watch ----- //
 
