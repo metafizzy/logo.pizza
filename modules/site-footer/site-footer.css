@@ -10,12 +10,13 @@
 }
 
 .site-footer__metafizzy-logo {
+  width: 39px;
   height: 50px;
 }
 
 .site-footer__metafizzy-wordmark {
   width: 150px;
-  height: auto;
+  height: 45px;
   fill: #E21;
 }
 

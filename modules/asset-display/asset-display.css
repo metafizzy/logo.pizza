@@ -30,7 +30,8 @@
 }
 
 .asset-display__img--big {
-  width: 336px;
+  width: 100%;
+  max-width: 336px;
   margin-bottom: 20px;
 }
 

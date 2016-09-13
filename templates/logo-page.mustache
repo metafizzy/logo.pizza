@@ -14,7 +14,7 @@
   <meta name="twitter:description" content="{{description}}" />
   <meta name="twitter:image" content="http://logo.pizza/img/{{slug}}/card.png" />
   {{! Facebook OpenGraph }}
-  <meta property="og:url" content="https://logo.pizza/{{slug}}.html" />
+  <meta property="og:url" content="https://logo.pizza/{{slug}}" />
   <meta property="og:type" content="article" />
   <meta property="og:title" content="{{title}}" />
   <meta property="og:image" content="http://logo.pizza/img/{{slug}}/card.png" />
@@ -59,7 +59,7 @@
         {{> custom-colors}}
 
         {{#unless isSold}}
-          <button class="purchase-button">Buy Logo ${{currentPrice}}</button>
+          <a class="purchase-button" href="https://gumroad.com/l/logopizza">Buy Logo ${{currentPrice}}</a>
 
           <div class="purchase-text">
             <p>Purchasing this logo you get:</p>

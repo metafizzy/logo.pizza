@@ -1,7 +1,7 @@
 <li class="thumbnail
   {{#each tags}}tag-{{this}} {{/each}}
   {{#if isSold}}is-sold{{else}}is-for-sale{{/if}}">
-  <a class="thumbnail__link" href="{{slug}}.html">
+  <a class="thumbnail__link" href="{{slug}}">
     <span class="thumbnail__sprite thumbnail__sprite--{{sprite}} thumbnail__sprite--position-{{spriteCol}}-{{spriteRow}}"></span>
     {{#unless isSold}}
       <span class="thumbnail__label thumbnail__label--status">For sale</span>

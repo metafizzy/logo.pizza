@@ -22,10 +22,18 @@
 .site-header__link:hover .site-header__logo { fill: #333; }
 
 .site-header__title {
-  font-size: 2.0rem;
+  font-size: 1.5rem;
   font-weight: bold;
   text-transform: uppercase;
-  letter-spacing: 0.2em;;
+  letter-spacing: 0.2em;
 }
 
 .site-header__link:hover .site-header__title { color: #333; }
+
+@media screen and ( min-width: 768px ) {
+
+  .site-header__title  {
+    font-size: 2.0rem;
+  }
+
+}
