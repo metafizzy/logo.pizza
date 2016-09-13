@@ -7,5 +7,13 @@
   <script src="js/logo-pizza.min.js"></script>
 {{/if}}
 
+{{#unless isDev}}
+  <script>
+    window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
+    ga('create','UA-58739927-5','auto');ga('send','pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+{{/unless}}
+
 </body>
 </html>
