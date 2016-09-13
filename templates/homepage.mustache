@@ -6,10 +6,6 @@
 
   <title>Logo Pizza - Logos for sale</title>
 
-{{#each cssPaths}}
-  <link rel="stylesheet" href="../{{this}}" />
-{{/each}}
-
   <meta name="description" content="Hot and ready logos for sale" />
   {{! Twitter card }}
   <meta name="twitter:card" content="summary_large_image" />
@@ -24,6 +20,8 @@
   <meta property="og:image" content="http://logo.pizza/img/collage-card.png" />
   <meta property="og:site_name" content="Logo Pizza" />
   <meta property="og:description" content="Hot and ready logos for sale" />
+
+  {{> css-links}}
 
 </head>
 <body>
@@ -48,15 +46,8 @@
 
 </div> {{! content-wrap }}
 
-<div class="collage">
-  <img class="collage__image" src="../img/collage.png" alt="Logo Pizza logo pizza" />
-</div>
+{{> collage}}
 
 {{> site-footer}}
 
-{{#each jsPaths}}
-  <script src="../{{this}}"></script>
-{{/each}}
-
-</body>
-</html>
+{{> html-foot}}

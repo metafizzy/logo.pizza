@@ -1,0 +1,11 @@
+{{! js scripts }}
+{{#if isDev}}
+  {{#each jsPaths}}
+    <script src="../{{this}}"></script>
+  {{/each}}
+{{else}}
+  <script src="js/logo-pizza.min.js"></script>
+{{/if}}
+
+</body>
+</html>

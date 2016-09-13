@@ -8,7 +8,6 @@ var site = {
   data: {
     currentPrice: 40,
     isDev: process.argv[2] == 'dev',
-    isExport: process.argv[2] == 'export',
   },
   templates: {},
   // src to watch, tasks to trigger
@@ -42,9 +41,10 @@ gulp.task( 'default', [
 
 // ----- watch ----- //
 
+gulp.task( 'dev', [ 'default' ] );
+
 // gulp.task( 'dev', [
 //   'hint',
-//   'dist',
 //   'prod-assets',
 //   'content'
 // ], function() {

@@ -21,9 +21,7 @@
   <meta property="og:site_name" content="Logo Pizza" />
   <meta property="og:description" content="{{description}}" />
 
-{{#each cssPaths}}
-  <link rel="stylesheet" href="../{{this}}" />
-{{/each}}
+{{> css-links}}
 
 </head>
 <body>
@@ -102,9 +100,4 @@
 
 {{> site-footer}}
 
-{{#each jsPaths}}
-  <script src="../{{this}}"></script>
-{{/each}}
-
-</body>
-</html>
+{{> html-foot}}
