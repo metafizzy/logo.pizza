@@ -1,6 +1,7 @@
 slug: sheriff
 title: Sheriff
 description: Nothing gets by the eye of this sheriff. If you think you can ride into my town and disrupt our lawful way of life, you got another thing comin', partner.
+isSold: true
 
 tags: [ human, head, one-color, bad-ass ]
 otherTag: bad-ass

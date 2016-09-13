@@ -1,6 +1,7 @@
 slug: fox-runner
 title: Fox runner
 description: Off to catch some goodies, this fox packs a whimsical smile and a big fluffy tail.
+isSold: true
 
 tags: [ animal, body, multi-color, cute, running, canine, moving ]
 otherTag: moving

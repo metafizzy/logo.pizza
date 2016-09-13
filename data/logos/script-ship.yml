@@ -1,6 +1,7 @@
 slug: script-ship
 title: Script ship
 description: Ahoy-hoy! Off the starboard bow there goes an elegant solution to this week's code sprint.
+isSold: true
 
 tags: [ object, scene, thick-lines, one-color ]
 otherTag: scene

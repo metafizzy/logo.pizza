@@ -1,6 +1,7 @@
 slug: bird-of-prey
 title: Bird of prey
 description: Descending from the heavens, it's a hawk or falcon or eagle!
+isSold: true
 
 tags: [ animal, bird, body, one-color, thick-lines, flying ]
 otherTag: bird
