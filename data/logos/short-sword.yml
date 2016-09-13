@@ -1,6 +1,7 @@
 slug: short-sword
 title: Short sword
 description: Did King Arthur pull it from the stone? Not likely. But it still makes a great symbol for those with knightly aspirations.
+isSold: true
 
 tags: [ object, gradient ]
 otherTag: gradient

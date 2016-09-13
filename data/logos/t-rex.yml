@@ -1,6 +1,7 @@
 slug: t-rex
 title: T-rex
 description: What could strike fear into the heart of any dinosaur more than an adorable t-rex.
+isSold: true
 
 tags: [ animal, body, dinosaur, cute, one-color, standing, bad-ass ]
 otherTag: bad-ass

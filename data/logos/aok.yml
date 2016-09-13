@@ -1,6 +1,7 @@
 slug: aok
 title: A-OK
 description: That's a spicy meat-a ball.
+isSold: true
 
 tags: [ hand, one-color ]
 otherTag: hand

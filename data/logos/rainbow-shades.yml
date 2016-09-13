@@ -1,6 +1,7 @@
 slug: rainbow-shades
 title: Rainbow shades
 description: Today's forecast? Chill zone.
+isSold: true
 
 tags: [ object, multi-color, colorful ]
 otherTag: colorful
