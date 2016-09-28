@@ -4,6 +4,11 @@
 
 Static site, built with Gulp for tasks, Handlebars for templating.
 
+## Tasks
+
++ `gulp` - build the production site, concatenate CSS and JS, minify JS
++ `gulp dev` - build the site, but use separate CSS and JS files for debugging
+
 ## Structure
 
 + `assets/` - files that get copied into `build/`
@@ -14,6 +19,8 @@ Static site, built with Gulp for tasks, Handlebars for templating.
 + `js/` - boilerplate JS
 + `modules/` - See below
 + `sandbox/` - A place to demo
+
+Images have been kept out of the repo.
 
 ## Modules
 
@@ -26,3 +33,26 @@ Modules are re-usable components used throughout the site. A module may consist 
         custom-colors.mustache
         custom-color.mustache
 
+[BEM](http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/) is used for CSS code style.
+
+``` css
+.custom-color {} /* block */
+.custom-color__preview {} /* element, child */
+.custom-color--dark {} /* modifier */
+```
+
+JavaScript can be initialized for each element with `data-js` attribute.
+
+``` html
+<div class="custom-colors" data-js="custom-colors">
+```
+
+``` js
+LogoPizza.modules['custom-colors'] = function( elem ) {
+  // do something with elem
+};
+```
+
+---
+
+By [Metafizzy](http://metafizzy.co)
