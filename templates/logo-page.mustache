@@ -48,6 +48,10 @@
 
         <p class="logo-page__status {{#if isSold}}is-sold{{/if}}">
           {{#if isSold}}Sold{{else}}Logo for sale{{/if}}
+          {{#if inUse}}
+            &middot;
+            <span="logo-page__in-use">In use at <a href="{{inUse.url}}">{{inUse.title}}</a></span>
+          {{/if}}
         </p>
 
         {{#if description}}
