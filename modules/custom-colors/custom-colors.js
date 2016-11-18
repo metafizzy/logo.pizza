@@ -30,14 +30,22 @@ LogoPizza.modules['custom-colors'] = function( elem ) {
 
 function initColors( elem ) {
   colorElems = elem.querySelectorAll('.custom-color');
+  var defaultColors = [];
   for ( var i=0; i < colorElems.length; i++ ) {
-    initColorElem( colorElems[i] );
+    var colorElem = colorElems[i];
+    var defaultColor = colorElem.getAttribute('data-default-color');
+    defaultColors.push( defaultColor );
   }
+
+  for ( i=0; i < colorElems.length; i++ ) {
+    initColorElem( colorElems[i], defaultColors );
+  }
+
 }
 
 var layerCount = 0;
 
-function initColorElem( colorElem ) {
+function initColorElem( colorElem, defaultColors ) {
   layerCount++;
   var title = colorElem.getAttribute('data-title');
   // build data
@@ -51,9 +59,11 @@ function initColorElem( colorElem ) {
   };
   var hueb = new Huebee( colorElem, {
     setText: false,
+    setBGColor: false,
     offset: [ 25, -5 ],
-    mode: 'roundHex',
+    customColors: defaultColors,
   });
+  // hueb.setColor( defaultColor );
   hueb.on( 'change', function( color ) {
     var layer = layers[ title ];
     layer.color = color;

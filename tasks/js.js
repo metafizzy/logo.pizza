@@ -18,6 +18,8 @@ var jsSrc = [
   'bower_components/isotope/js/item.js',
   'bower_components/isotope/js/isotope.js',
   'bower_components/isotope/js/layout-modes/fit-rows.js',
+  // huebee
+  'bower_components/huebee/huebee.js',
   // docs
   'js/boilerplate.js',
   // modules
