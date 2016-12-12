@@ -1,6 +1,7 @@
 slug: horse-mane
 title: Horse mane
 description: Bold, tough work horse with hair to match.
+isSold: true
 
 tags: [ animal, head, thick-lines, one-color ]
 otherTag: thick-lines
