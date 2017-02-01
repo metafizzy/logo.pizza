@@ -1,6 +1,7 @@
 slug: adventure
 title: Adventure
 description: Go where the fun takes you.
+isSold: true
 
 tags: [ circle, scene, multi-color, colorful ]
 otherTag: colorful

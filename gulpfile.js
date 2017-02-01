@@ -6,7 +6,7 @@ var gulp = require('gulp');
 var site = {
   // templating data
   data: {
-    currentPrice: 760,
+    currentPrice: 780,
     isDev: process.argv[2] == 'dev',
   },
   templates: {},
