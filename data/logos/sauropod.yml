@@ -2,6 +2,9 @@ slug: sauropod
 title: Sauropod
 description: Fossil records show mighty long-necked beasts would roam the plains, just chillin'.
 isSold: true
+inUse:
+  url: https://broadcastick.com/
+  title: Broadcastick
 
 tags: [ animal, body, dinosaur, standing, one-color ]
 otherTag: standing
