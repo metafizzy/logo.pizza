@@ -17,11 +17,10 @@
 
 .logo-page__status.is-sold {
   color: #777;
-  padding: 0 30px;
+  padding: 10px 30px;
   display: inline-block;
   background: #EEE;
   border-radius: 20px;
-  line-height: 40px;
 }
 
 .logo-page__description {
