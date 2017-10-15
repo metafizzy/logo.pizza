@@ -20,7 +20,7 @@
     "tests"
   ],
   "dependencies": {
-    "normalize-css": "normalize.css#^4.2.0",
+    "normalize-css": "^7.0.0",
     "isotope": "^3.0.1",
     "huebee": "^1.0.0"
   }

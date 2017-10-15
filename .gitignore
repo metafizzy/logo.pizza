@@ -3,3 +3,4 @@ bower_components/
 img/
 sandbox/**/*.png
 build/
+package-lock.json

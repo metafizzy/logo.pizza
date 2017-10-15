@@ -1,6 +1,6 @@
 {
   "name": "logo.pizza",
-  "version": "0.0.0",
+  "version": "2.0.0",
   "description": "Hot & ready logos for sale",
   "main": "index.js",
   "scripts": {
@@ -12,20 +12,23 @@
   ],
   "author": "Metafizzy",
   "dependencies": {
-    "cheerio": "^0.19.0",
-    "glob": "^4.3.5",
-    "gulp": "^3.8.10",
-    "gulp-concat": "^2.4.3",
-    "gulp-filter": "^2.0.1",
-    "gulp-front-matter": "^1.2.1",
-    "gulp-jshint": "^1.9.0",
-    "gulp-rename": "^1.2.0",
-    "gulp-replace": "^0.5.1",
-    "gulp-uglify": "^1.1.0",
+    "cheerio": "^1.0.0-rc.2",
+    "glob": "^7.1.2",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-filter": "^5.0.1",
+    "gulp-front-matter": "^1.3.0",
+    "gulp-hb": "^6.0.2",
+    "gulp-jshint": "^2.0.4",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.6.1",
+    "gulp-uglify": "^3.0.0",
     "gulp-yaml": "^1.0.1",
-    "handlebars": "^3.0.0",
-    "highlight.js": "^8.4.0",
-    "js-yaml": "^3.6.1"
+    "handlebars-layouts": "^3.1.4",
+    "highlight.js": "^9.12.0",
+    "js-yaml": "^3.10.0",
+    "jshint": "^2.9.5",
+    "transfob": "^1.0.0"
   },
   "devDependencies": {}
 }
