@@ -1,14 +1,13 @@
-LogoPizza.modules.filter = function( elem ) {
+LogoPizza.modules['for-sale'] = function( elem ) {
 
   // init Isotope
-  // var thumbnailsGrid = document.querySelector()
-  var iso = new Isotope( '.thumbnails--homepage', {
+  var iso = new Isotope( '.thumbnails', {
     layoutMode: 'fitRows',
     stagger: 15,
     transitionDuration: '0.3s',
   });
 
-  var groups = elem.querySelectorAll('.filter__group');
+  var groups = elem.querySelectorAll('.for-sale__filter__group');
   var groupFilters = {};
 
   for ( var i=0; i < groups.length; i++ ) {
@@ -20,7 +19,7 @@ LogoPizza.modules.filter = function( elem ) {
     group.addEventListener( 'click', function( event ) {
       // only button clicks
       // console.log('click');
-      if ( !matchesSelector( event.target, '.filter__button' ) ) {
+      if ( !matchesSelector( event.target, '.for-sale__filter__button' ) ) {
         return;
       }
       group.querySelector('.is-selected').classList.remove('is-selected');

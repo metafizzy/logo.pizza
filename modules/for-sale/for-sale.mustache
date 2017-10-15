@@ -1,0 +1,31 @@
+<div class="for-sale" data-js="for-sale">
+
+  <div class="for-sale__filter col">
+
+    <div class="for-sale__filter__group for-sale__filter__group--tag" data-filter-group="tag">
+      <button class="for-sale__filter__button is-selected" data-filter="">Any</button>
+      <button class="for-sale__filter__button" data-filter=".tag-animal">animal</button>
+      <button class="for-sale__filter__button" data-filter=".tag-object">object</button>
+      <button class="for-sale__filter__button" data-filter=".tag-human">human</button>
+      <button class="for-sale__filter__button" data-filter=".tag-abstract">abstract</button>
+      <button class="for-sale__filter__button" data-filter=".tag-one-color">one-color</button>
+      <button class="for-sale__filter__button" data-filter=".tag-multi-color">multi-color</button>
+      <button class="for-sale__filter__button" data-filter=".tag-head">head</button>
+      <button class="for-sale__filter__button" data-filter=".tag-body">body</button>
+    </div>
+
+    <div class="for-sale__filter__group for-sale__filter__group--status" data-filter-group="status">
+      <button class="for-sale__filter__button is-selected" data-filter="">Any</button>
+      <button class="for-sale__filter__button" data-filter=".is-for-sale">For sale</button>
+      <button class="for-sale__filter__button" data-filter=".is-sold">Sold</button>
+    </div>
+
+  </div>
+
+  <ul class="thumbnails">
+    {{#each thumbnails.vol2}}
+      {{> thumbnail}}
+    {{/each}}
+  </ul>
+
+</div>

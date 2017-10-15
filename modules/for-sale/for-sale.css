@@ -1,17 +1,17 @@
 /* filter
 ------------------------- */
 
-.filter {
+.for-sale__filter {
   margin-top: 40px;
 }
 
-.filter:after {
+.for-sale__filter:after {
   clear: both;
   content: '';
   display: block;
 }
 
-.filter__title {
+.for-sale__filter__title {
   font-size: 1.4rem;
   letter-spacing: 0.3em;
   text-transform: uppercase;
@@ -19,49 +19,51 @@
   margin-bottom: 10px;
 }
 
-.filter__group {
+.for-sale__filter__group {
   float: left;
   margin-bottom: 10px;
 }
 
-.filter__button {
+.for-sale__filter__button {
   background: white;
   border: 1px solid #E21;
   color: #E21;
   float: left;
+  font-family: inherit;
   font-size: 1.05rem;
   margin-bottom: 5px;
   margin-right: -1px;
   padding: 8px 15px;
+  border-radius: 0;
   outline: none;
 }
 
-.filter__button:first-child {
+.for-sale__filter__button:first-child {
   border-radius: 5px 0 0 5px;
 }
 
-.filter__button:last-child {
+.for-sale__filter__button:last-child {
   border-radius: 0 5px 5px 0;
 }
 
-.filter__button:hover {
+.for-sale__filter__button:hover {
   border-color: #333;
   color: #333;
   cursor: pointer;
 }
 
-.filter__button.is-selected {
+.for-sale__filter__button.is-selected {
   background: #E21;
   color: white;
 }
 
 
 @media screen and ( min-width: 768px ) {
-  .filter__group--status {
+  .for-sale__filter__group--status {
     width: 30%;
   }
 
-  .filter__group--tag {
+  .for-sale__filter__group--tag {
     width: 65%;
     margin-right: 5%;
   }

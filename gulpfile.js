@@ -24,30 +24,34 @@ require('./tasks/assets')( site );
 require('./tasks/hint')( site );
 require('./tasks/js')( site );
 require('./tasks/css')( site );
-// require('./tasks/partials')( site );
+require('./tasks/partials')( site );
 require('./tasks/logo-pages')( site );
 require('./tasks/homepage')( site );
+
+// ----- content ----- //
+
+gulp.task( 'content', [
+  'homepage',
+  'logo-pages',
+]);
 
 // ----- default ----- //
 
 gulp.task( 'default', [
   'hint',
-  'homepage',
-  'logo-pages',
+  'prod-assets',
   'js',
   'css',
-  'prod-assets'
+  'content',
 ] );
 
 
 // ----- watch ----- //
 
-gulp.task( 'dev', [ 'default' ] );
-
 gulp.task( 'dev', [
   'hint',
   'prod-assets',
-  'content'
+  'content',
 ], function() {
   watches.forEach( function( watchable ) {
     gulp.watch.apply( gulp, watchable );

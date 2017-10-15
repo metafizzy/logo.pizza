@@ -1,6 +1,6 @@
 var gulp = require('gulp');
 var hbs = require('handlebars');
-var getTransform = require('./utils/get-transform');
+var transfob = require('transfob');
 var gulpYaml = require('gulp-yaml');
 var rename = require('gulp-rename');
 var extend = require('./utils/extend');
@@ -31,7 +31,7 @@ hbs.registerHelper( 'ifOr', function( a, b, options ) {
 
 gulp.task( 'logo-page-template', function() {
   return gulp.src('templates/logo-page.mustache')
-    .pipe( getTransform( function( file, enc, next ) {
+    .pipe( transfob( function( file, enc, next ) {
       template = hbs.compile( file.contents.toString() );
       next( null, file );
     }));
@@ -53,7 +53,7 @@ gulp.task( 'logo-pages-logos-data', function() {
   tags = {};
   return gulp.src( 'data/*/*.yml' )
     .pipe( gulpYaml() )
-    .pipe( getTransform( function( file, enc, next ) {
+    .pipe( transfob( function( file, enc, next ) {
       var logoData = JSON.parse( file.contents.toString() );
       // add logo data to logos hash
       logos[ logoData.slug ] = logoData;
@@ -79,7 +79,7 @@ module.exports = function( site ) {
 
     return gulp.src( 'data/*/*.yml' )
       .pipe( gulpYaml() )
-      .pipe( getTransform( function( file, enc, next ) {
+      .pipe( transfob( function( file, enc, next ) {
         var data = JSON.parse( file.contents.toString() );
         data.otherLogos = getOtherLogos( data );
         extend( data, site.data );
