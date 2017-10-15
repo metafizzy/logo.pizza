@@ -51,7 +51,7 @@ var tags;
 gulp.task( 'logo-pages-logos-data', function() {
   logos = {};
   tags = {};
-  return gulp.src( 'data/logos/*.yml' )
+  return gulp.src( 'data/*/*.yml' )
     .pipe( gulpYaml() )
     .pipe( getTransform( function( file, enc, next ) {
       var logoData = JSON.parse( file.contents.toString() );
@@ -77,7 +77,7 @@ module.exports = function( site ) {
       hbs.registerPartial( partialName, partialTemplate );
     }
 
-    return gulp.src( 'data/logos/*.yml' )
+    return gulp.src( 'data/*/*.yml' )
       .pipe( gulpYaml() )
       .pipe( getTransform( function( file, enc, next ) {
         var data = JSON.parse( file.contents.toString() );
@@ -86,7 +86,7 @@ module.exports = function( site ) {
         file.contents = new Buffer( template( data ) );
         next( null, file );
       }) )
-      .pipe( rename({ extname: '.html' }) )
+      .pipe( rename({ extname: '.html', dirname: '' }) )
       .pipe( gulp.dest('build') );
   });
 

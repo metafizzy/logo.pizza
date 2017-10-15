@@ -10,7 +10,7 @@ var data = {};
 
 gulp.task( 'homepage-logos-data', function() {
   data.thumbnails = [];
-  return gulp.src( 'data/logos/*.yml' )
+  return gulp.src( 'data/*/*.yml' )
     .pipe( gulpYaml() )
     .pipe( getTransform( function( file, enc, next ) {
       var logoData = JSON.parse( file.contents.toString() );
