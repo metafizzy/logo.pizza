@@ -18,7 +18,6 @@ LogoPizza.modules['for-sale'] = function( elem ) {
     var groupKey = group.getAttribute('data-filter-group');
     group.addEventListener( 'click', function( event ) {
       // only button clicks
-      // console.log('click');
       if ( !matchesSelector( event.target, '.for-sale__filter__button' ) ) {
         return;
       }

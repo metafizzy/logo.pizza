@@ -9,34 +9,34 @@
   text-align: center;
 }
 
-.site-footer__metafizzy-logo {
-  width: 39px;
-  height: 50px;
+.site-footer .mfzy-logo,
+.site-footer .mfzy-wordmark {
+  vertical-align: middle;
 }
 
-.site-footer__metafizzy-wordmark {
-  width: 150px;
-  height: 45px;
-  fill: #E21;
+.site-footer .mfzy-logo {
+  width: 54px;
+  height: 54px;
 }
 
-.metafizzy-logo__outline { fill: #E21; }
-.metafizzy-logo__body { fill: white; }
-
-.metafizzy-logo__stripe1 { fill: transparent; }
-.metafizzy-logo__stripe2 { fill: transparent; }
-.metafizzy-logo__stripe3 { fill: transparent; }
-.metafizzy-logo__stripe4 { fill: transparent; }
-
-/* hover */
-a:hover .site-footer__metafizzy-wordmark {
-  fill: #333;
+/* red & white */
+.site-footer .mfzy-wordmark,
+.site-footer .mfzy-logo__body-outline,
+.site-footer .mfzy-logo__cut-ins {
+  stroke: #E21;
 }
 
-a:hover .metafizzy-logo__body { fill: transparent; }
+.site-footer .mfzy-logo__feature { fill: #E21; }
+.site-footer .mfzy-logo__body-fill { fill: white; }
+.site-footer .mfzy-logo__stripes { display: none; }
 
-a:hover .metafizzy-logo__outline { fill: #333; }
-a:hover .metafizzy-logo__stripe1 { fill: #C25; }
-a:hover .metafizzy-logo__stripe2 { fill: #E62; }
-a:hover .metafizzy-logo__stripe3 { fill: #EA0; }
-a:hover .metafizzy-logo__stripe4 { fill: #19F; }
+/* full cover hover */
+.site-footer a:hover .mfzy-wordmark,
+.site-footer a:hover .mfzy-logo__body-outline,
+.site-footer a:hover .mfzy-logo__cut-ins {
+  stroke: #333;
+}
+
+.site-footer a:hover .mfzy-logo__feature { fill: #333; }
+.site-footer a:hover .mfzy-logo__body-fill { display: none; }
+.site-footer a:hover .mfzy-logo__stripes { display: inline; }

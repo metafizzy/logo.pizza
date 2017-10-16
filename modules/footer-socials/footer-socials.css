@@ -14,14 +14,14 @@
   margin-right: 30px;
 }
 
-.footer-socials__symbol {
+.footer-socials__icon {
   width: 1.2em;
   height: 1.2em;
   fill: #E21;
   vertical-align: middle;
 }
 
-.footer-socials__link:hover .footer-socials__symbol {
+.footer-socials__link:hover .footer-socials__icon {
   fill: #333;
 }
 

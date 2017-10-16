@@ -9,10 +9,9 @@
   text-align: center;
 }
 
-.homepage-header__logo {
+.homepage-header .logo-pizza-logo {
   width: 80px;
   height: 80px;
-  fill: #E21;
 }
 
 .homepage-header__title {
@@ -35,7 +34,7 @@
 
 @media screen and ( min-width: 768px ) {
 
-  .homepage-header__logo {
+  .homepage-header .logo-pizza-logo {
     width: 240px;
     height: 240px;
     margin-bottom: -30px;
