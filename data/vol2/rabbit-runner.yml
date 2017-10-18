@@ -1,0 +1,33 @@
+slug: rabbit-runner
+title: Rabbit runner
+description: "I'm late. I'm late. But never too late to look fabulous"
+
+tags: [ animal, body, cute ]
+otherTag: cute
+
+# mainAsset:
+  # imgSrc: brain-melt/brain-melt.png
+
+sprite: 2
+spriteRow: 3
+spriteCol: 4
+
+variants:
+  -
+    title: Hatless
+    imgSrc: rabbit-runner/rabbit-runner-hatless.svg
+  -
+    title: One color
+    imgSrc: rabbit-runner/rabbit-runner-one-color.svg
+  -
+    title: Hatless one color
+    imgSrc: rabbit-runner/rabbit-runner-hatless-one-color.svg
+
+mainSVG: |
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 860">
+    <title>rabbit-runner-logo</title>
+    <!-- Designed by Metafizzy, 2017 -->
+    <path fill="#333" d="M738 617l-20 40a71 71 0 0 1-95 32l-50-26a135 135 0 0 1-78 100l-22 44a60 60 0 0 1-80 27l-84-42-11 11a111 111 0 0 1-78 32 15 15 0 0 1-15-15v-74a75 75 0 0 1-31-101 71 71 0 0 1-52-102l20-40a71 71 0 0 1 12-17 50 50 0 0 1-11-20c-8-28 12-62 50-94l-59-30a82 82 0 0 1 44-155l-14-33a18 18 0 0 1-2-5c-9-32 75-83 187-113s208-27 217 5a18 18 0 0 1 1 5v1a85 85 0 0 1 68 83v117c58 7 98 26 106 58s-17 70-66 105c0 42-15 82-40 116a71 71 0 0 1 17-9 71 71 0 0 1 86 99z"/>
+    <path fill="#fff" d="M282 234l92 46q18-6 36-11c18-5 37-9 54-13v-79a559 559 0 0 0-75 15c-41 12-78 27-107 42z"/>
+    <path fill="#ed0" d="M226 637a114 114 0 0 0-1 74 117 117 0 0 0 5 12 45 45 0 0 1-4-87zm25 117a76 76 0 0 1-11 1h-5v49a81 81 0 0 0 43-23l4-4a115 115 0 0 1-31-23zm134-54a15 15 0 0 0 15 15h70a10 10 0 0 1 9 14l-32 64a30 30 0 0 1-40 13l-111-55a85 85 0 0 1-38-114l15-31a15 15 0 0 0-7-20l-20-10a15 15 0 0 0-20 7l-5 10a41 41 0 0 1-73-37l20-40a41 41 0 0 1 55-18l28 14a15 15 0 0 0 5 1 205 205 0 0 0 21 28 15 15 0 1 0 22-20c-24-26-38-57-43-90 0-32 74-77 170-103 91-25 173-25 195-1a159 159 0 0 1 24 83c0 68-44 130-113 159a15 15 0 1 0 12 28 229 229 0 0 0 45-25l24 12a15 15 0 0 0 20-7l5-10a41 41 0 0 1 73 37l-20 40a41 41 0 0 1-55 18l-70-35a15 15 0 0 0-21 13 105 105 0 0 1-36 79 40 40 0 0 0-40-34h-69a15 15 0 0 0-15 15zm195-295a25 25 0 1 0 25-25 25 25 0 0 0-25 25zm-160 60a15 15 0 0 0-15 15 55 55 0 0 0 95 38 55 55 0 0 0 95-38 15 15 0 0 0-30 0 25 25 0 0 1-49 6l35-35a15 15 0 1 0-21-21l-30 29-29-29a15 15 0 1 0-21 21l35 35a25 25 0 0 1-50-6 15 15 0 0 0-15-15zm-35-35a25 25 0 1 0-25-25 25 25 0 0 0 25 25zM123 247a52 52 0 0 0 23 70l74 36c31-21 71-42 115-59l-142-71a52 52 0 0 0-70 24zm482-3V130a55 55 0 1 0-110 0v122c40-7 77-9 110-8z"/>
+  </svg>

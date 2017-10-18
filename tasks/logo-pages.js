@@ -27,10 +27,10 @@ hbs.registerHelper( 'ifOr', function( a, b, options ) {
   }
 });
 
-
+var logoPageTemplateSrc = 'templates/logo-page.mustache';
 
 gulp.task( 'logo-page-template', function() {
-  return gulp.src('templates/logo-page.mustache')
+  return gulp.src( logoPageTemplateSrc )
     .pipe( transfob( function( file, enc, next ) {
       template = hbs.compile( file.contents.toString() );
       next( null, file );
@@ -47,6 +47,8 @@ var logos;
 //   animals: [ ']
 // }
 var tags;
+
+var logoDataSrc = 'data/*/*.yml';
 
 gulp.task( 'logo-pages-logos-data', function() {
   logos = {};
@@ -70,6 +72,7 @@ gulp.task( 'logo-pages-logos-data', function() {
 
 module.exports = function( site ) {
 
+
   gulp.task( 'logo-pages', [ 'partials', 'logo-page-template', 'logo-pages-logos-data' ], function() {
 
     for ( var partialName in site.partials ) {
@@ -77,7 +80,7 @@ module.exports = function( site ) {
       hbs.registerPartial( partialName, partialTemplate );
     }
 
-    return gulp.src( 'data/*/*.yml' )
+    return gulp.src( logoDataSrc )
       .pipe( gulpYaml() )
       .pipe( transfob( function( file, enc, next ) {
         var data = JSON.parse( file.contents.toString() );
@@ -89,6 +92,9 @@ module.exports = function( site ) {
       .pipe( rename({ extname: '.html', dirname: '' }) )
       .pipe( gulp.dest('build') );
   });
+
+  site.watch( logoDataSrc, [ 'logo-pages' ] );
+  site.watch( logoPageTemplateSrc, [ 'logo-pages' ] );
 
 };
 

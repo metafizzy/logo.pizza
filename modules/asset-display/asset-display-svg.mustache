@@ -1,0 +1,11 @@
+<div class="asset-display asset-display--svg {{#if isMain}}asset-display--main{{/if}} {{#if isDark}}is-dark{{/if}}">
+  {{#unless isMain}}
+    <h2 class="asset-display__title">{{title}}</h2>
+  {{/unless}}
+  <div class="asset-display__img asset-display__img--big">
+    {{{svg}}}
+  </div>
+  <div class="asset-display__img asset-display__img--small">
+    {{{svg}}}
+  </div>
+</div>

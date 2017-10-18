@@ -32,11 +32,17 @@
 .asset-display__img--big {
   width: 100%;
   max-width: 336px;
+  padding: 43px;
   margin-bottom: 20px;
 }
 
 .asset-display__img--small {
   width: 48px;
+  padding: 4px;
+}
+
+.asset-display__img svg {
+  display: block;
 }
 
 .asset-display__title {

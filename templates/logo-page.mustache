@@ -34,7 +34,11 @@
 
     <div class="duo">
       <div class="duo__cell">
-        {{> asset-display mainAsset isMain="true" title=title}}
+        {{#if mainSVG}}
+          {{> asset-display-svg svg=mainSVG isMain="true" title=title}}
+        {{else}}
+          {{> asset-display mainAsset isMain="true" title=title}}
+        {{/if}}
 
         {{#each variants}}
           {{> asset-display}}
