@@ -1,14 +1,18 @@
-{{#if customColors}}
-  <div class="custom-colors" data-js="custom-colors">
+{{#ifOr customColors mainSVG}}
+  <div class="custom-colors" data-js="custom-colors{{#if mainSVG}}-svg{{/if}}">
     <div class="custom-colors__content">
       <h3 class="custom-colors__title">Preview custom colors</h3>
-      {{#each customColors}}
+      {{#if customColors}}
+        {{#each customColors}}
+          {{> custom-color}}
+        {{/each}}
+      {{else}}
         {{> custom-color}}
-      {{/each}}
+      {{/if}}
     </div> {{! .custom-colors__content }}
     <div class="custom-colors__bg-option">
       <button class="custom-bg-button custom-bg-button--light">Light BG</button>
       <button class="custom-bg-button custom-bg-button--dark">Dark BG</button>
     </div>
   </div> {{! custom-colors }}
-{{/if}}
+{{/ifOr}}
