@@ -1,0 +1,23 @@
+slug: sunset-hero
+title: Sunset hero
+description: He set his sword against the wind, stared into horizon, and wondered when he would need to weild again.
+
+tags: [ human, bad-ass, body, circle ]
+otherTag: bad-ass
+
+sprite: 3
+spriteRow: 0
+spriteCol: 2
+
+variants:
+  -
+    title: Figure
+    imgSrc: sunset-hero/sunset-hero-figure.svg
+
+mainSVG: |
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 850">
+    <title>sunset-hero</title>
+    <!-- Designed by Metafizzy, 2017 -->
+    <path fill="#ea0" d="M850 425C850 190 660 0 425 0S0 190 0 425a423 423 0 0 0 58 215h734a423 423 0 0 0 58-215z"/>
+    <path fill="#705" d="M575 640l5-10V470h16l17 17 14-14-23-23h-34v-11a40 40 0 0 0 0-77v-22h-20v21a40 40 0 0 0-22 15l-28 4-16-27 6-3v-20h-46l28-28-16-32h34l-20-110-38 26a90 90 0 0 0-108 144h-64v20l16 8-20 130a40 40 0 0 0 47 65l-21 87H58c74 126 211 210 367 210s293-84 367-210zM434 270l14 28-29 29-29-57zM303 488l20-65 7 17-15 61a40 40 0 0 0-12-13zm31 153l46-111 42 110zm144 0l-48-201 17-36 43 36 39-15a40 40 0 0 0 21 14v11h-34l-23 23 14 14 17-17h16v160l5 10z"/>
+  </svg>

@@ -2,15 +2,12 @@ slug: rabbit-runner
 title: Rabbit runner
 description: "I'm late. I'm late. But never too late to look fabulous"
 
-tags: [ animal, body, cute ]
+tags: [ animal, body, cute, multi-color ]
 otherTag: cute
 
-# mainAsset:
-  # imgSrc: brain-melt/brain-melt.png
-
-sprite: 2
-spriteRow: 3
-spriteCol: 4
+sprite: 3
+spriteRow: 0
+spriteCol: 0
 
 variants:
   -

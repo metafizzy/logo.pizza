@@ -1,0 +1,23 @@
+slug: antelope-family
+title: Antelope family
+description: Two gazelles against the world.
+
+tags: [ animal, multi-color, body ]
+otherTag: animal
+
+sprite: 3
+spriteRow: 1
+spriteCol: 2
+
+variants:
+  -
+    title: One color
+    imgSrc: antelope-family/antelope-family-one-color.svg
+
+mainSVG: |
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 700">
+    <title>antelope-family-two-color</title>
+    <!-- Designed by Metafizzy, 2017 -->
+    <path d="M590,285c0-64.1-26.6-119.6-65.4-146.9A33.5,33.5,0,0,0,560,90l-60,30,75-75V0L380,195l30,45,60-20v20a60,60,0,0,1-60,60H245a104.7,104.7,0,0,0-75,31.5V330a60,60,0,0,0-60,60v60h0a59.6,59.6,0,0,0,35.4-11.7A105,105,0,0,0,170,478.5V690h90V510H440V690h90V427.9C565.9,399.3,590,346.1,590,285Z" fill="#b3b"/>
+    <path d="M490.2,161.3A11.3,11.3,0,1,1,479,150,11.3,11.3,0,0,1,490.2,161.3ZM380,330a30,30,0,0,0,60,0Zm180,30-60,60V690H470V585a15,15,0,0,0-30,0V690H410V585a15,15,0,0,0-15-15H305a15,15,0,0,0-15,15V690H260V585a15,15,0,0,0-30,0V690H200V510a60,60,0,0,1,60-60H380a60,60,0,0,0,60-60V330H545Zm-81-19.5a11.3,11.3,0,1,0,11.3,11.3A11.2,11.2,0,0,0,479,340.5Z" fill="#ed0"/>
+  </svg>
