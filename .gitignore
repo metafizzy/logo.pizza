@@ -1,6 +1,6 @@
 node_modules/
 bower_components/
-img/
+img/**/*.png
 sandbox/**/*.png
 build/
 package-lock.json
