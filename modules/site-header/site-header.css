@@ -16,25 +16,26 @@
   width: 50px;
   height: 50px;
   fill: #E21;
-  vertical-align: bottom;
-  margin-right: 10px;
+  vertical-align: middle;
+  margin-right: 0px;
+}
+
+.site-header .logo-pizza-wordmark {
+  width: 161px;
+  height: 36px;
+  vertical-align: middle;
 }
 
 .site-header__link:hover .logo-pizza-logo { fill: #333; }
+.site-header__link:hover .logo-pizza-wordmark { stroke: #333; }
 
 .site-header__title {
-  font-size: 1.5rem;
-  font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: 0.2em;
+  display: inline-block;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  text-indent: -9999px;
 }
 
-.site-header__link:hover .site-header__title { color: #333; }
-
 @media screen and ( min-width: 768px ) {
-
-  .site-header__title  {
-    font-size: 2.0rem;
-  }
-
 }

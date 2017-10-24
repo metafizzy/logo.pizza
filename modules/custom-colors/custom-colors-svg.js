@@ -56,7 +56,7 @@ function updateColorGroups( img ) {
 
 function addColorElement( colorElem, attr ) {
   var color = colorElem.getAttribute( attr );
-  if ( !color ) {
+  if ( !color || color == 'none' ) {
     return;
   }
   color = color.toUpperCase();

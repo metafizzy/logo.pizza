@@ -8,9 +8,11 @@ var thumbOrder = require('./thumbnail-order');
 
 var data = {};
 
+var logoDataSrc = 'data/*/*.yml';
+
 gulp.task( 'homepage-logos-data', function() {
   data.thumbnails = {};
-  return gulp.src( 'data/*/*.yml' )
+  return gulp.src( logoDataSrc )
     .pipe( gulpYaml() )
     .pipe( transfob( function( file, enc, next ) {
       // get volume from preceding directory
@@ -52,6 +54,8 @@ module.exports = function( site ) {
       .pipe( rename('index.html') )
       .pipe( gulp.dest('build') );
   });
+
+  site.watch( logoDataSrc, [ 'homepage' ] );
 
 };
 
