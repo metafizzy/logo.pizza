@@ -1,0 +1,26 @@
+slug: interlock
+title: interlock
+description: Three square rings interlocked within one another
+
+tags: [ thick-lines, abstract ]
+otherTag: abstract
+
+sprite: 3
+spriteRow: 2
+spriteCol: 3
+
+variants:
+  -
+    title: Filled
+    imgSrc: interlock/interlock-filled.svg
+  -
+    title: 3D
+    imgSrc: interlock/interlock-3d.svg
+
+mainSVG: |
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 370 370">
+    <title>interlock-logo</title>
+    <!-- Designed by Metafizzy, 2017 -->
+    <path d="M115.7,275l34.6,60H335.1l23.1-40L300.5,195m-34.6,60,34.6-60L208.1,35H161.9L104.2,135m150.1,60h46.2M150.4,335m23.1-120,23.1,40h92.4l-11.5-20m-138.6,0,34.6,60H358.2m-184.8,0-23.1,40M185,235l23.1-40-46.2-80-11.5,20m69.3,120,34.6-60L161.9,35M104.2,135m92.4,80H150.4l-46.2,80h23.1m69.3-120H127.3L34.9,335M173.5,135H104.2L11.8,295l23.1,40H150.4M127.3,175l-23.1-40" fill="none" stroke="#333" stroke-miterlimit="10" stroke-width="14"/>
+  </svg>
+

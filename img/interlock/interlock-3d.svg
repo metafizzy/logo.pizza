@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 370 370">
+  <!-- Designed by Metafizzy, 2017 -->
+  <defs>
+    <linearGradient id="a" x1="253.07" y1="276.8" x2="259.04" y2="232.52" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1"/>
+    </linearGradient>
+    <linearGradient id="b" x1="149.01" y1="155.36" x2="312.78" y2="111.19" xlink:href="#a"/>
+    <linearGradient id="c" x1="154.01" y1="289.85" x2="70.39" y2="246.8" xlink:href="#a"/>
+    <linearGradient id="d" x1="168.78" y1="250.11" x2="156.14" y2="191.24" xlink:href="#a"/>
+    <linearGradient id="e" x1="218.52" y1="219.23" x2="154.65" y2="298.42" xlink:href="#a"/>
+    <linearGradient id="f" x1="226.89" y1="213.79" x2="176.95" y2="196.23" gradientUnits="userSpaceOnUse">
+      <stop offset="0"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="g" x1="93.92" y1="321.7" x2="194.28" y2="374.06" xlink:href="#a"/>
+  </defs>
+  <title>interlock-3d</title>
+  <g style="isolation: isolate">
+      <path d="M300.5,195l-34.6,60H219.6l34.6-60Zm-127-60-11.5-20-11.5,20ZM127.3,295H104.2l46.2-80h46.2l11.5-20-11.5-20H127.3L34.9,335H150.4Zm207.8,40,23.1-40H173.5l-23.1,40Z" fill="#888"/>
+      <path d="M300.5,195H254.3L161.9,35h46.2ZM127.3,175h69.3l-23.1-40H104.2Zm150.1,60,11.5,20H196.5l-23.1-40H150.4l-11.5,20,34.6,60H358.2L300.5,195Z" fill="#eee"/>
+      <path d="M104.2,135,161.9,35l92.4,160-34.6,60H196.5L185,235l23.1-40-46.2-80-11.5,20ZM11.8,295l23.1,40,92.4-160-23.1-40Zm103.9-20-11.5,20h23.1Zm57.7,20-34.6-60-23.1,40,34.6,60Zm92.4-40h23.1l-11.5-20Z" fill="#bbb"/>
+      <polygon points="300.5 195 265.8 255 219.6 255 254.3 195 300.5 195" opacity="0.51" fill="url(#a)" style="mix-blend-mode: screen"/>
+      <polygon points="104.2 135 173.5 135 196.5 175 127.3 175 104.2 135" fill="url(#b)" style="mix-blend-mode: multiply"/>
+      <polygon points="150.4 335 115.7 275 138.8 235 173.5 295 150.4 335" fill="url(#c)" style="mix-blend-mode: multiply"/>
+      <polygon points="196.5 255 173.5 215 150.4 215 138.8 235 173.5 295 196.5 255" fill="url(#d)" style="mix-blend-mode: multiply"/>
+      <polygon points="208.1 195 185 235 196.5 255 219.6 255 254.3 195 208.1 195" opacity="0.5" fill="url(#e)" style="mix-blend-mode: multiply"/>
+      <polygon points="150.4 215 196.5 215 208.1 195 196.5 175 127.3 175 150.4 215" opacity="0.51" fill="url(#f)" style="mix-blend-mode: multiply"/>
+      <polygon points="58 295 104.2 295 127.3 295 150.4 335 34.9 335 58 295" fill="url(#g)" style="mix-blend-mode: multiply"/>
+  </g>
+</svg>

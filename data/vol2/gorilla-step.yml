@@ -6,8 +6,8 @@ tags: [ animal, body, thick-lines ]
 otherTag: thick-lines
 
 sprite: 3
-spriteRow: 0
-spriteCol: 4
+spriteRow: 1
+spriteCol: 0
 
 variants:
   -

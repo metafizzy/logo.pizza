@@ -1,0 +1,18 @@
+slug: mechanical-hare
+title: Mechanical hare
+description: "Let's see the greyhounds try to catch this one."
+
+tags: [ animal, body, one-color, thick-lines, moving ]
+otherTag: moving
+
+sprite: 3
+spriteRow: 1
+spriteCol: 4
+
+mainSVG: |
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320"
+    fill="none" stroke="#305" stroke-width="20">
+    <title>mechanical hare</title>
+    <!-- Designed by Metafizzy, 2017 -->
+    <path d="M170,165a45,45,0,0,1-45,45H79.2A80,80,0,0,1,10,250V210a40,40,0,0,0,40-40H80.3a45,45,0,1,1,89.7-5Zm104.7,5H228.3A30,30,0,1,0,200,210h65.3l15.8,7.9,17.9-35.8ZM152,100a40,40,0,0,0,40,40h20.4A35,35,0,0,0,247,170h13a20,20,0,0,0,20-20h0a50,50,0,0,0-50-50Zm-77,0a20,20,0,1,0,20,20A20,20,0,0,0,75,100Z"/>
+  </svg>

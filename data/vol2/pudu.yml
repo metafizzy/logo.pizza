@@ -1,0 +1,36 @@
+slug: pudu
+title: Pudu
+description: The pudú is the tiny rainforest deer. Yup these things exist.
+
+tags: [ animal, body, cute, multi-color ]
+otherTag: cute
+
+sprite: 3
+spriteRow: 2
+spriteCol: 0
+
+variants:
+  -
+    title: One color
+    imgSrc: pudu/pudu-one-color.svg
+
+mainSVG: |
+  <svg xmlns="http://www.w3.org/2000/svg"  xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 230 230">
+    <title>Pudu</title>
+    <!-- Designed by Metafizzy, 2017 -->
+    <defs>
+      <path id="pudu-body" d="M50 165a25 25 0 0 1-20 10v50H60L50 195l16.4-5.5M105 185l10-30-10 30h25l-10 10 20 20 25-25 5 5-10 30h30V115H120a50 50 0 0 0-70 10A40 40 0 0 0 40 98 40 40 0 0 0 30 125c0 4.7 1.2 11.8 3.7 15.5L90 225h30L88.7 193.7a30 30 0 0 0 12.5-49.9"/>
+    </defs>
+    <use xlink:href="#pudu-body" fill="#e21" />
+    <path  fill="#ed0" d="M155 200l-15 15-20-20 15-15Zm-55 5H76.7L90 225h30l-20-20m-70 0H53.3L60 225H30V205m160 0v20H160l6.7-20H190"/>
+    <use xlink:href="#pudu-body" fill="none" stroke="#333" stroke-width="10" />
+    <path fill="#ed0" stroke="#333" stroke-width="10" d="M120 115c0 45 45 35 45 60v10 a40 45 0 0 0 0 -90
+      M198.7 62A33 33 0 0 0 205 42.5 A34 34 0 0 0 180.5 10 A56 56 0 0 0 170 41.1a45 45 0 0 0-36.6 7.6A46 46 0 0 0 115 45 A49 49 0 0 0 85 55.5C89 69.7 100.9 80 115 80h.3A45 45 0 1 0 205 85 A45 45 0 0 0 198.7 62Z" />
+    <circle cx="160" cy="85" r="40.2" fill="#e21"/>
+    <path fill="#333" d="M137 95c3 0 7 0 7-3 0-10-3-17-7-17S130 78 130 85 133 95 137 95Z
+      M183 95c-3 0-7 0-7-3 0-10 3-17 7-17s7 3 7 10S187 95 183 95Z
+      M160 90c-7 0-7 3-7 5s2 7 7 7s7-5 7-7s0-5-7-5Z" />
+    <path fill="none" stroke="#333" stroke-width="6" d="M144 106c3 10 12 4 16 4s13 6 16-4" />
+  </svg>
+
+
