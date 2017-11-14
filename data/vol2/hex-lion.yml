@@ -1,0 +1,23 @@
+slug: hex-lion
+title: Hex lion
+description: Clear lion's head depicted with thick lines along hexagonal angles.
+
+tags: [ thick-lines, animal, head, one-color ]
+otherTag: head
+
+sprite: 3
+spriteRow: 3
+spriteCol: 0
+
+variants:
+  -
+    title: Dark background
+    imgSrc: hex-lion/hex-lion-dark-bg.svg
+    isDark: true
+
+mainSVG: |
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+    <title>hex-lion</title>
+    <!-- Designed by Metafizzy, 2017 -->
+    <path fill="#333" d="M634 473l-68 39V378H718v68H634ZM334 6 266 46 500 181 734 46 666 6l-166 96ZM500 921 374 994 306 954l126-73L340 828 214 901 146 862l160-93V663L54 809 20 789V750L272 604 180 551 20 643V565l126-73V386L20 458V380l92-53L20 273V195l160 93 92-53-166-96L174 99 349 200H651L826 99 894 138l-166 96L820 287l160-93v79l-92 53L980 380v79L854 386V492l126 73v79L820 551l-92 53L980 750v39l-34 20L694 663V769l160 93L786 901 660 828l-92 53 126 73L626 994ZM374 584V730l92-53V638L420 611v-41H580v41l-46 27v39l92 53V584l160-93V346L651 268H349L214 346V492ZM500 842l92-53L500 736l-92 53ZM434 378H282v68h84v27l68 39Z"/>
+  </svg>

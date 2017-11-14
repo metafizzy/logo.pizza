@@ -1,0 +1,26 @@
+slug: line-dragon
+title: Line dragon
+description: Dragon with head bowed and wing expanded, visualized with thick lines overlayed with multiply blend.
+
+tags: [ animal, body, multi-color, thick-lines, bad-ass, rad ]
+otherTag: rad
+
+sprite: 3
+spriteRow: 3
+spriteCol: 3
+
+variants:
+  -
+    title: One color
+    imgSrc: line-dragon/line-dragon-one-color.svg
+
+mainSVG: |
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
+    <title>line-dragon-logo</title>
+    <!-- Designed by Metafizzy, 2017 -->
+    <g style="isolation: isolate">
+      <path fill="#f1a" d="M218 620l40-80-30-60H330v40H292l10 20-20 40h30l25 50H293l-5-10ZM460 545 498 620h40l5 10h45l-25-50h-40l-35-69A109 109 0 0 0 500 460c0-25-9-53-18-80C476 361 470 341 470 330H430c0 17 7 39 14 62S460 442 460 460a70 70 0 0 1-70 70H360v40h30A110 110 0 0 0 460 545ZM150 0H130l20 40a90 90 0 0 1 0 180 130 130 0 0 0 0 260V440a90 90 0 0 1 0-180A130 130 0 0 0 150 0Z"/>
+      <path fill="#0b6" style="mix-blend-mode: multiply" d="M88 620h-70l50-100H200a80 80 0 0 0 80-80h40A120 120 0 0 1 200 560H92l-10 20h30l25 50H93Zm355 10h45l-25-50H430V440H390V620h48Zm145-370L540 355V290a80 80 0 0 0-160 0v60a40 40 0 1 1-40-40h20V0L320 20V273A80 80 0 1 0 420 350V290a40 40 0 0 1 80 0V400h62l70-140ZM288 242l-90-180L168 92l87 174A120 120 0 0 1 288 242Zm-45 38L70 193v45L225 315A120 120 0 0 1 243 279ZM220 350a121 121 0 0 1 2-20H80l20 40H222A121 121 0 0 1 220 350Z"/>
+    </g>
+  </svg>
+

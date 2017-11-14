@@ -1,0 +1,29 @@
+slug: shape-skull
+title: Shape skull
+description: Circle for eye, triangle for nose, and um, square for the other eye!
+
+tags: [ human, multi-color, head, rad ]
+otherTag: rad
+
+sprite: 3
+spriteRow: 4
+spriteCol: 2
+
+variants:
+  -
+    title: One color outline
+    imgSrc: shape-skull/shape-skull-one-color-outline.svg
+  -
+    title: One color fill
+    imgSrc: shape-skull/shape-skull-one-color-fill.svg
+
+mainSVG: |
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 460">
+    <title>shape-skull-logo</title>
+    <!-- Designed by Metafizzy, 2017 -->
+    <path d="M230 0h-3A220 220 0 0 0 27 304 41 41 0 0 1 30 320V344a56 56 0 0 0 56 56h14v10a50 50 0 0 0 50 50H310a50 50 0 0 0 50-50V400h14a56 56 0 0 0 56-56V320a38 38 0 0 1 3-15A220 220 0 0 0 230 0Z" fill="#333"/>
+    <path d="M230 40h-2C130 41 50 121 50 219a179 179 0 0 0 14 70 81 81 0 0 1 6 31V344a16 16 0 0 0 16 16h14a40 40 0 0 1 40 40v10a10 10 0 0 0 10 10h10a8 8 0 0 0 7-5l6-11a8 8 0 0 1 15 0l6 11A8 8 0 0 0 200 420h10a8 8 0 0 0 7-5l6-11a8 8 0 0 1 15 0l6 11A8 8 0 0 0 250 420h10a8 8 0 0 0 7-5l6-11a8 8 0 0 1 15 0l6 11A8 8 0 0 0 300 420h10a10 10 0 0 0 10-10V400a40 40 0 0 1 40-40h14a16 16 0 0 0 16-16V320a78 78 0 0 1 6-30A180 180 0 0 0 230 40Z" fill="#fff"/>
+    <circle cx="140" cy="240" r="50"  fill="#e21" />
+    <rect x="275" y="195" width="90" height="90" rx="10" ry="10" fill="#19f"/>
+    <path d="M223 276 182 348a8 8 0 0 0 7 12h83a8 8 0 0 0 7-12l-42-72A8 8 0 0 0 223 276Z" fill="#ea0"/>
+  </svg>

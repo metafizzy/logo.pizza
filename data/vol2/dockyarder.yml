@@ -1,0 +1,24 @@
+slug: dockyarder
+title: Dockyarder
+description: "Hard-worn dude, wearing a knit cap, 'cause times are tough."
+
+tags: [ human, head, bad-ass ]
+otherTag: human
+
+sprite: 4
+spriteRow: 0
+spriteCol: 0
+
+variants:
+  -
+    title: One color
+    imgSrc: dockyarder/dockyarder-one-color.svg
+
+mainSVG: |
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 68 68">
+    <title>dockyarder-logo</title>
+    <!-- Designed by Metafizzy, 2017 -->
+    <path d="M12,28v4H8V44l4,4v8L24,68H44L56,56V48l4-4V32H56V28h4V16l-4-4V8L48,0H20L12,8v4L8,16V28Z" fill="#048"/>
+    <path d="M16,48V44l-4-4V28h4v4h4l-4,4H28V32h4V28h4V44H28v4H24l-4,4Zm12,8v4H40V56ZM52,36H40V48h4L54,38Zm-4-4,4,4V32Z" fill="#ed0"/>
+  </svg>
+

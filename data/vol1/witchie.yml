@@ -2,6 +2,9 @@ slug: witchie
 title: Witchie
 description: More of the Kiki's Delivery Service over the Wicked variety.
 isSold: true
+inUse:
+  url: http://fizzy.school
+  title: Fizzy School
 
 tags: [ human, body, flying, female, moving ]
 otherTag: moving

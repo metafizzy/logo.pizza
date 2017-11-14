@@ -1,0 +1,24 @@
+slug: blue-jay
+title: Blue jay
+description: Lil circular birdie chirpie to the tall trees.
+
+tags: [ animal, body, multi-color, bird ]
+otherTag: bird
+
+sprite: 4
+spriteRow: 0
+spriteCol: 1
+
+variants:
+  -
+    title: One color
+    imgSrc: blue-jay/blue-jay-one-color.svg
+
+mainSVG: |
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 432 432">
+    <title>blue-jay-logo</title>
+    <!-- Designed by Metafizzy, 2017 -->
+    <path d="M363.5,179.8C347.3,130.7,290.7,96,224,96H208v57.4L9.4,352h93.3l31.5-31.5a144,144,0,0,0,231.3-85.3L419.8,208Z" fill="#333"/>
+    <path d="M80,304h48L96,336H48ZM224,164h76l36,36h8l6.5-6.5C341.2,147.3,288.1,112,224,112v48l-96,96h64l16,16H112L96,288H224l16,16h32V256a48,48,0,0,0-48-48h0Z" fill="#19f"/>
+    <path d="M256.8,200a44,44,0,0,1,86.5,0H318.3a20,20,0,0,0-36.6,0ZM344,216H318.3a20,20,0,0,1-36.6,0H250.5A48,48,0,0,1,224,304H139.4A127.5,127.5,0,0,0,224,336h0A128,128,0,0,0,351.1,223.1ZM192,288h32l-16-16H176Zm-32-32h32l-16-16H144Z" fill="#fff"/>
+  </svg>

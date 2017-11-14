@@ -1,0 +1,17 @@
+slug: alligator-key
+title: Alligator key
+description: Alligator crawls out of the trenches to unlock the gates.
+
+tags: [ animal, head, one-color ]
+otherTag: one-color
+
+sprite: 3
+spriteRow: 4
+spriteCol: 0
+
+mainSVG: |
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 380">
+    <title>alligator-key</title>
+    <!-- Designed by Metafizzy, 2017 -->
+    <path d="M280,290V270a80,80,0,0,0,0-160V90a100,100,0,0,1,0,200Zm60-100a60.1,60.1,0,0,0-60-60v20a40,40,0,0,1,0,80v20A60.1,60.1,0,0,0,340,190Zm-40,0a20,20,0,0,0-20-20v40A20,20,0,0,0,300,190ZM120,170l-20,20,20,20H240l10,10v10h10v20H60a60,60,0,0,1,0-120h1.7a30,30,0,0,1,56.6,0H240a10,10,0,0,1,20,0v20H250v10l-20,20-10-10H210l-20,20-20-20-10,10-10-10-10,10-10-10Zm-20-30a10,10,0,0,0-20,0Z" fill="#0a6"/>
+  </svg>

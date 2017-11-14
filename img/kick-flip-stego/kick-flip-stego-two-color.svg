@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 344 344">
+  <!-- Designed by Metafizzy, 2017 -->
+  <defs>
+    <clipPath id="a">
+      <path fill="none" d="M136 176l56-56V64H72v112h64z"/>
+    </clipPath>
+  </defs>
+  <title>kick-flip-stego-two-color</title>
+  <path fill="#ea0" stroke="#333" stroke-width="16" d="M192 72l-16-16 24-40 24 40-16 16m-65 13l6-22-41-22v46l22 6m-37 36l-6-22H41l23 41 22-6m-14 50l-16-16-40 24 40 24 16-16m17 56l-22-6-12 26 29 2 6-22M264 89l22-6-2-29-26 13 6 22m-96 167l56 16 32-40h-16l-56-16m121-89l11 2 9-16-18 3-2 11M127 305l-11 2-3 18 16-9-2-11"/>
+  <path fill="#ea0" stroke="#333" stroke-width="16" d="M200 72a128 128 0 0 1 119 80l-15 48h-40l-11-39a23 23 0 0 0-22-17 23 23 0 0 0-23 23v33l-56 80a48 48 0 0 0 48 48 128 128 0 1 1 0-256z"/>
+  <path fill="#ea0" stroke="#333" stroke-width="16" d="M152 208l-40 8 24 72h32l16-32-8-24"/>
+  <path fill="#333" d="M277 140a12 12 0 0 1 0 24z"/>
+  <path fill="none" stroke="#333" stroke-width="16" d="M208 304h20l76-32 16-16"/>
+  <circle cx="248" cy="320" r="8" fill="#333"/>
+  <circle cx="304" cy="296" r="8" fill="#333"/>
+  <g clip-path="url(#a)">
+    <path fill="#ea0" stroke="#333" stroke-width="16" d="M184 136L88 88v48l64 32"/>
+  </g>
+</svg>

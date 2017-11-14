@@ -40,6 +40,7 @@
 .thumbnail__sprite--1 { background-image: url(../../img/thumbnail-sprite1.png); }
 .thumbnail__sprite--2 { background-image: url(../../img/thumbnail-sprite2.png); }
 .thumbnail__sprite--3 { background-image: url(../../img/thumbnail-sprite3.png); }
+.thumbnail__sprite--4 { background-image: url(../../img/thumbnail-sprite4.png); }
 
 .thumbnail__sprite--position-1-0 { background-position: -160px 0px; }
 .thumbnail__sprite--position-2-0 { background-position: -320px 0px; }

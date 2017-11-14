@@ -2,8 +2,8 @@ slug: bolt-circle
 title: Bolt circle
 description: Feeling electric in the morning, around a focal point.
 
-tags: [ object, circle, one-color ]
-otherTag: object
+tags: [ object, circle, one-color, rad ]
+otherTag: rad
 
 sprite: 3
 spriteRow: 1
