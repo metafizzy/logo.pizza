@@ -16,6 +16,7 @@
 }
 
 .signup__email {
+  font-family: inherit;
   width: 20rem;
   padding: 0 10px;
   margin: 0 10px;
@@ -25,9 +26,9 @@
   margin-bottom: 5px;
 }
 
-.signup__email::-webkit-input-placeholder { color: #777; }
-.signup__email::-moz-placeholder { color: #777; }
-.signup__email:-ms-input-placeholder { color: #777; }
+.signup__email::-webkit-input-placeholder { color: #CCC; }
+.signup__email:-ms-input-placeholder { color: #CCC; }
+.signup__email::placeholder { color: #CCC; }
 
 .signup__button {
   padding: 0 20px;
@@ -38,6 +39,7 @@
   box-shadow: 0 3px 6px hsla(0, 0%, 0%, 0.2);
   color: white;
   border-radius: 5px;
+  font-family: inherit;
 }
 
 .signup__button:hover {
