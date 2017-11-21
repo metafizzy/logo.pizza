@@ -27,12 +27,14 @@ require('./tasks/css')( site );
 require('./tasks/partials')( site );
 require('./tasks/logo-pages')( site );
 require('./tasks/homepage')( site );
+require('./tasks/license')( site );
 
 // ----- content ----- //
 
 gulp.task( 'content', [
   'homepage',
   'logo-pages',
+  'license',
 ]);
 
 // ----- default ----- //
