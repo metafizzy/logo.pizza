@@ -3,8 +3,8 @@ title: Script ship
 description: Ahoy-hoy! Off the starboard bow there goes an elegant solution to this week's code sprint.
 isSold: true
 
-tags: [ object, scene, thick-lines, one-color ]
-otherTag: scene
+tags: [ object, scene, thick-lines, one-color, vehicle ]
+otherTag: vehicle
 
 mainAsset:
   imgSrc: script-ship/script-ship.png

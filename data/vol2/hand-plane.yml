@@ -2,8 +2,8 @@ slug: hand-plane
 title: Hand plane
 description: "Attention passengers: we are preparing for take-off."
 
-tags: [ hand, object, multi-color ]
-otherTag: hand
+tags: [ hand, object, vehicle, multi-color ]
+otherTag: vehicle
 
 mainAsset:
   imgSrc: hand-plane/hand-plane.png

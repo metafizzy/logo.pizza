@@ -2,8 +2,8 @@ slug: excavator
 title: Excavator
 description: Small but sturdy construction vechicle on the job
 
-tags: [ object ]
-otherTag: object
+tags: [ object, vehicle ]
+otherTag: vehicle
 
 sprite: 4
 spriteRow: 1

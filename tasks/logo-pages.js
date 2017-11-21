@@ -53,7 +53,7 @@ var logoDataSrc = 'data/*/*.yml';
 gulp.task( 'logo-pages-logos-data', function() {
   logos = {};
   tags = {};
-  return gulp.src( 'data/*/*.yml' )
+  return gulp.src( 'data/vol2/*.yml' )
     .pipe( gulpYaml() )
     .pipe( transfob( function( file, enc, next ) {
       var logoData = JSON.parse( file.contents.toString() );
