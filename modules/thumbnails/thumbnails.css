@@ -78,7 +78,7 @@
   text-align: center;
   border-radius: 25px;
   opacity: 0;
-  color: #E21;
+  color: #E62;
   pointer-events: none;
   transition: opacity 0.2s;
 }

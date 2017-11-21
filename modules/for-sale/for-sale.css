@@ -26,8 +26,8 @@
 
 .for-sale__filter__button {
   background: white;
-  border: 1px solid #E21;
-  color: #E21;
+  border: 1px solid #E62;
+  color: #E62;
   float: left;
   font-family: inherit;
   font-size: 1.05rem;
@@ -53,7 +53,7 @@
 }
 
 .for-sale__filter__button.is-selected {
-  background: #E21;
+  background: #E62;
   color: white;
 }
 
