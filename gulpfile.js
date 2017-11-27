@@ -9,7 +9,7 @@ var watches = [];
 var site = {
   // templating data
   data: {
-    currentPrice: 200,
+    currentPrice: 230,
     isDev: process.argv[2] == 'dev',
   },
   templates: {},
