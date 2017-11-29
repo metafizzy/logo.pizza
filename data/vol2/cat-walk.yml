@@ -1,6 +1,7 @@
 slug: cat-walk
 title: Cat walk
 description: This kitty is on the prowl. Its pointy paws give it just a bit of edge to make you look twice.
+isSold: true
 
 tags: [ animal, cat, body, one-color ]
 otherTag: cat

@@ -1,6 +1,7 @@
 slug: pudu
 title: Pudu
 description: The pudú is the tiny rainforest deer. Yup these things exist.
+isSold: true
 
 tags: [ animal, body, cute, multi-color ]
 otherTag: cute

@@ -52,6 +52,9 @@ module.exports = function( site ) {
         next( null, file );
       }) )
       .pipe( rename('index.html') )
+      .pipe( gulp.dest('build') )
+      // duplicate for vol2 new url for Product Hunt
+      .pipe( rename('vol2.html') )
       .pipe( gulp.dest('build') );
   });
 

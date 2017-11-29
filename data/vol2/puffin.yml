@@ -1,6 +1,7 @@
 slug: puffin
 title: Puffin
 description: Stout puffin strutting across the dale.
+isSold: true
 
 tags: [ animal, body, multi-color, bird, cute, moving ]
 otherTag: bird

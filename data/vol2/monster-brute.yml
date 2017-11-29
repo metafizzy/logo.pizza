@@ -1,6 +1,7 @@
 slug: monster-brute
 title: Monster brute
 description: Big hulking baddie with fangs, distant gaze, and tiny lil legs.
+isSold: true
 
 tags: [ animal, body, one-color, bad-ass ]
 otherTag: bad-ass
