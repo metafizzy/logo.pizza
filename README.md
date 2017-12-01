@@ -56,3 +56,7 @@ LogoPizza.modules['custom-colors'] = function( elem ) {
 ---
 
 By [Metafizzy](http://metafizzy.co)
+
+All logo SVG code is owned by Metafizzy or clients who have purchased the logo. All rights reserved.
+
+Remaining code is MIT Licensed
