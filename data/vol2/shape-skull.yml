@@ -1,6 +1,7 @@
 slug: shape-skull
 title: Shape skull
 description: Circle for eye, triangle for nose, and um, square for the other eye!
+isSold: true
 
 tags: [ human, multi-color, head, rad ]
 otherTag: rad

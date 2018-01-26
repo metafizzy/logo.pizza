@@ -1,6 +1,7 @@
 slug: brain-melt
 title: Brain melt
 description: Whoa. You're telling me astronauts don't even eat astronaut ice cream?
+isSold: true
 
 tags: [ object, head, cute ]
 otherTag: head

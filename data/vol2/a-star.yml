@@ -1,6 +1,7 @@
 slug: a-star
 title: A-star
 description: Five A-shapes encircle a star.
+isSold: true
 
 tags: [ abstract, multi-color ]
 otherTag: abstract

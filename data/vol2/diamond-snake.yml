@@ -1,6 +1,7 @@
 slug: diamond-snake
 title: Diamond snake
-description: Hiding the grass amoungst the rubies and emeralds lies the opulent diamond snake. 
+description: Hiding the grass amoungst the rubies and emeralds lies the opulent diamond snake.
+isSold: true
 
 tags: [ animal, body, multi-color ]
 otherTag: multi-color

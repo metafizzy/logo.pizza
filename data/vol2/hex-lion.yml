@@ -1,6 +1,7 @@
 slug: hex-lion
 title: Hex lion
 description: Clear lion's head depicted with thick lines along hexagonal angles.
+isSold: true
 
 tags: [ thick-lines, animal, head, one-color ]
 otherTag: head
