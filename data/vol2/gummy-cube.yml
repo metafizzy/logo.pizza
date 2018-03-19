@@ -1,6 +1,7 @@
 slug: gummy-cube
 title: Gummy cube
 description: Square block comprised of a gelatinous membrane.
+isSold: true
 
 tags: [ abstract, one-color ]
 otherTag: abstract
