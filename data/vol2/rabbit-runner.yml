@@ -2,6 +2,9 @@ slug: rabbit-runner
 title: Rabbit runner
 description: "I'm late. I'm late. But never too late to look fabulous"
 isSold: true
+inUse:
+  url: https://neatnik.net/
+  title: Neatnik
 
 tags: [ animal, body, cute, multi-color, moving ]
 otherTag: cute
