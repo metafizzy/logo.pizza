@@ -2,6 +2,9 @@ slug: wild-eyed-tiger
 title: Wild eyed tiger
 description: Some would say fierce, but I'd say this kitty is motivated. Go get 'em tiger!
 isSold: true
+inUse:
+  url: https://www.totheblockchain.net/
+  title: To The Blockchain
 
 tags: [ animal, head, cat, multi-color, bad-ass, rad ]
 otherTag: bad-ass

@@ -1,6 +1,7 @@
 slug: star-tree
 title: Star tree
 description: A fluffly cloud-like treetop growing out of a stout star-like trunk.
+isSold: true
 
 tags: [ object, scene, multi-color ]
 otherTag: object

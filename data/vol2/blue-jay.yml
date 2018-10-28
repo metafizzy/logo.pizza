@@ -1,6 +1,7 @@
 slug: blue-jay
 title: Blue jay
 description: Lil circular birdie chirping to the tall trees.
+isSold: true
 
 tags: [ animal, body, multi-color, bird ]
 otherTag: bird

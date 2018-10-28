@@ -1,6 +1,7 @@
 slug: acorn-oak
 title: Acorn oak
 description: The purpose of an acorn is to grow to be a tall oak tree.
+isSold: true
 
 tags: [ thick-lines, object ]
 otherTag: object

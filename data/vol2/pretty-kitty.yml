@@ -1,6 +1,7 @@
 slug: pretty-kitty
 title: Pretty kitty
 description: Cute chibi cat. No nose, all adorbs.
+isSold: true
 
 tags: [ cat, cute, animal, head ]
 otherTag: cute

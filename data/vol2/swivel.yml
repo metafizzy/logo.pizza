@@ -1,6 +1,7 @@
 slug: swivel
 title: Swivel
 description: Striped ribbon twisted around a triangle in a rounded rectange.
+isSold: true
 
 tags: [ abstract, multi-color ]
 otherTag: abstract

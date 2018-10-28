@@ -1,6 +1,7 @@
 slug: mechanical-hare
 title: Mechanical hare
 description: "Let's see the greyhounds try to catch this one."
+isSold: true
 
 tags: [ animal, body, one-color, thick-lines, moving ]
 otherTag: moving
