@@ -1,6 +1,7 @@
 slug: chicken-egg
 title: Chicken egg
 description: Which came first? Probably breakfast.
+isSold: true
 
 tags: [ bird, multi-color, body, object ]
 otherTag: bird
