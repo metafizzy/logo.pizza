@@ -1,6 +1,7 @@
 slug: osprey
 title: Osprey
 description: Chipper birdie that loves fish. Wikipedia says the osprey is a raptor with a cosmopolitan range, wow.
+isSold: true
 
 tags: [ bird, multi-color, head, animal, cute ]
 otherTag: bird
