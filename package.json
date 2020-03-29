@@ -29,5 +29,14 @@
     "jshint": "^2.9.5",
     "transfob": "^1.0.0"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/metafizzy/logo.pizza.git"
+  },
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/metafizzy/logo.pizza/issues"
+  },
+  "homepage": "https://logo.pizza"
 }

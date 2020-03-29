@@ -4,3 +4,4 @@ img/**/*.png
 sandbox/**/*.png
 build/
 package-lock.json
+.netlify

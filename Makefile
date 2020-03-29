@@ -1,5 +1,5 @@
 deploy:
-	surge build logo.pizza
+	netlify deploy --dir=build
 
 gulp:
 	gulp

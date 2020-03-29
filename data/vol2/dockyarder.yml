@@ -1,6 +1,7 @@
 slug: dockyarder
 title: Dockyarder
 description: "Hard-worn dude, wearing a knit cap, 'cause times are tough."
+isSold: true
 
 tags: [ human, head, bad-ass ]
 otherTag: human
