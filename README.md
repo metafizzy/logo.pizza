@@ -1,6 +1,6 @@
-# [logo.pizza](http://logo.pizza)
+# [logo.pizza](https://logo.pizza)
 
-[Logo Pizza site](http://logo.pizza)
+[Logo Pizza site](https://logo.pizza)
 
 Static site, built with Gulp for tasks, Handlebars for templating.
 

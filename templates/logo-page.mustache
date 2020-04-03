@@ -4,20 +4,20 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width" />
 
-  <title>{{title}}{{#unless isSold}} - Logo for sale{{/unless}}</title>
+  <title>{{title}} &middot; {{#if isSold}}Logo Pizza{{else}}Logo for sale{{/if}}</title>
 
   <meta name="description" content="{{description}}" />
   {{! Twitter card }}
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:site" content="@metafizzyco" />
-  <meta name="twitter:title" content="{{title}}{{#unless isSold}} - Logo for sale{{/unless}}" />
+  <meta name="twitter:title" content="{{title}} &middot; {{#if isSold}}Logo Pizza{{else}}Logo for sale{{/if}}" />
   <meta name="twitter:description" content="{{description}}" />
-  <meta name="twitter:image" content="http://logo.pizza/img/{{slug}}/card.png" />
+  <meta name="twitter:image" content="https://logo.pizza/img/{{slug}}/card.png" />
   {{! Facebook OpenGraph }}
   <meta property="og:url" content="https://logo.pizza/{{slug}}" />
   <meta property="og:type" content="article" />
-  <meta property="og:title" content="{{title}}" />
-  <meta property="og:image" content="http://logo.pizza/img/{{slug}}/card.png" />
+  <meta property="og:title" content="{{title}} &middot; {{#if isSold}}Logo Pizza{{else}}Logo for sale{{/if}}" />
+  <meta property="og:image" content="https://logo.pizza/img/{{slug}}/card.png" />
   <meta property="og:site_name" content="Logo Pizza" />
   <meta property="og:description" content="{{description}}" />
 
