@@ -1,6 +1,7 @@
 slug: truck-flight
 title: Truck flight
 description: The Duke boys gone done it again and jumped the creek, but this time in a high-flyin' pickup.
+isSold: true
 
 tags: [ object, vehicle, one-color ]
 otherTag: vehicle
