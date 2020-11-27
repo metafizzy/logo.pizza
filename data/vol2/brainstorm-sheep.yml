@@ -4,6 +4,7 @@ description: Zzzzap! Like a bolt of lightning to mammalian brains.
 
 tags: [ animal, body ]
 otherTag: animal
+isSold: true
 
 sprite: 3
 spriteRow: 1

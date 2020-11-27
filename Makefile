@@ -2,7 +2,7 @@ deploy:
 	netlify deploy --dir=build
 
 gulp:
-	gulp
+	npx gulp
 
 reset:
 	rm -rf build/
